@@ -9,6 +9,7 @@
 #Imports
 import sys
 import os
+import os.path
 
 import operator
 import MonopolySimInit 
@@ -53,11 +54,14 @@ SetColour = MonopolySimInit.SetColour
 Spaces = [] 
 Players = []
 
+
+
+scriptpath = os.path.dirname(__file__)
 #Reads CSV file for information about the Game
 #First it Reads the Token Names File
-TokenNames = MonopolySimInit.ReadTokens('MonopolyData - Tokens.txt')
+TokenNames = MonopolySimInit.ReadTokens(os.path.join(scriptpath, 'MonopolyData - Tokens.txt'))
 #Then the Spaces File
-Spaces = MonopolySimInit.ReadSpaces('MonopolyData - Spaces.txt')
+Spaces = MonopolySimInit.ReadSpaces(os.path.join(scriptpath,'MonopolyData - Spaces.txt'))
 #Initlisizes Players
 Players = MonopolySimInit.genPlayers(NumberOfPlayers, TokenNames, initalMoney)
 
@@ -388,7 +392,7 @@ def TakeTurn(_player):
                 return
 
 def addToLog(_txt):
-    f = open("MonopolyLog.txt", "a")
+    f = open(os.path.join(scriptpath,"MonopolyLog.txt"), "a")
     f.write('\n')
     f.write(str(_txt))
     f.close()
@@ -397,9 +401,6 @@ def addToLog(_txt):
 def game():
 
     ##For Keeping Logs
-    
-    
-    
     TurnNumber = 1
     
     global GameOver
