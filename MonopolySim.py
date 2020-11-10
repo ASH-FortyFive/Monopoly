@@ -49,13 +49,6 @@ Spaces = MonopolySimInit.ReadSpaces(os.path.join(scriptpath,'MonopolyData - Spac
 #Initlisizes Players
 Players = MonopolySimInit.genPlayers(NumberOfPlayers, TokenNames, initalMoney)
 
-
-#Functions to do very basic things
-def roll2d6():
-    rollList = [random.randint(1,6),random.randint(1,6)]
-    rollList.append(rollList[0] + rollList[1])
-    return rollList
-
 ## SECTION ONE CHECKING VALUES ##
 # The functions here are used to check if later moves are valid/possible
 #Checks how many properties in a given set a player has
@@ -135,18 +128,36 @@ def sellProperty(_player, _space, _cost):
     _player.ownedSets.remove(_space.colourSet)
     _player.ownedSets.sort()
 
+def goToJail(_player):
+    _player.inJail = True
+    _player.turnsInJail = 0
+    _player.position = 10
+
+#Moves player from A to B
+def movePlayer(_player, _target):
+    if(_target <= _player.position):
+        #If the Target is before current position, you must have passed go
+        _player.money += 200
+
+    _player.position = _target
+
+## SECTION 3 DURING A TURN ##
+# Everything that happens during a turn, this is where the Agent script is called
+
+#Functions to do very basic things
+def roll2d6():
+    rollList = [random.randint(1,6),random.randint(1,6)]
+    rollList.append(rollList[0] + rollList[1])
+    return rollList
 
 #Handels Landing on Special Spaces
-#Not a very elegant solution
 def OnSpecial(_player, _space):
     if(_space.id == "Income Tax"):
         payFor(_player, 200, False)
     elif(_space.id == "Chance"):
-        #print(str(_player.id) + " is drawing a chance card")
-        1 == 1
+        chanceCard(_player)
     elif(_space.id == "Community"):
-        #print(str(_player.id) + " is drawing a Community card")
-        1 == 1
+        communityCard(_player)
     elif(_space.id == "Go To Jail"):
         goToJail(_player)
     elif(_space.id == "Super Tax"):
@@ -158,14 +169,15 @@ def OnSpecial(_player, _space):
     else:
         print("Error, invalid non-property space with the label " + str(_space.id))
 
+#Community cards INCOMPLETE
+def communityCard(_player):
+    1 == 1
 
+#Chance cards INCOMPLETE
+def chanceCard(_player):
+    1 == 1
     
-
-
-
-
-
-#When a property is not purchased
+#When a player chooses not to buy the property they landed on
 def auctionProperty(_player, _space):
     auctionOrder = []
     auctionIndex = Players.index(_player)
@@ -189,7 +201,7 @@ def auctionProperty(_player, _space):
     #print(bidder.id + ' bought ' + _space.id + ' for ' + str(currentBid))
 
 #Handels Landing on Property
-def OnProperty(_player, _space):
+def OnProperty(_player, _space, _diceRoll):
     if _space.owner == None:
         # NEEDS TO BE CHANGED #
         if(_player.money >= _space.cost):
@@ -204,9 +216,9 @@ def OnProperty(_player, _space):
         elif _space.colourSet == 9:
             amountOfUtilites = hasHowManyOfSet(_space.owner, _space.colourSet)
             if amountOfUtilites == 1:
-                amountOwed = 4 * lastDiceRoll
+                amountOwed = 4 * _diceRoll
             elif amountOfUtilites == 2:
-                amountOwed = 10 * lastDiceRoll
+                amountOwed = 10 * _diceRoll
             else:
                 print("Too many utilities")
             payFor(_player, amountOwed, _space.owner)
@@ -219,49 +231,9 @@ def OnProperty(_player, _space):
             else:
                 payFor(_player, _space.rentList[_space.numberOfHouses], _space.owner)
         
-def goToJail(_player):
-    _player.inJail = True
-    _player.turnsInJail = 0
-    _player.position = 10
-
-#Temporary Function that lets the Bots build houses
-def buyHouses(_player):
-    global RemainingHouses
-    global RemainingHotels
-    #Inverts list as to buy "better" houses first
-    ownedSets = (_player.ownedSets)
-    ownedSets.reverse()
-    
-    for ownedSet in ownedSets:
-        posOfPropsInSet = MonopolySimInit.PropertiesInSet[ownedSet]
-        posOfPropsInSet.reverse()
-        for position in posOfPropsInSet:
-            space = Spaces[position]
-            maxLevel = maxHouseLevel(ownedSet)
-            if(((_player.money - 200) > space.costOfHouse)\
-               and space.numberOfHouses < maxLevel):
-                #Deals with limited number of houses and hotels
-                if(maxLevel == 5 and RemainingHotels != 0):
-                    RemainingHouses += 4
-                    RemainingHotels -= 1
-                    space.numberOfHouses += 1
-                elif(RemainingHouses != 0):
-                    RemainingHouses -= 1
-                    space.numberOfHouses += 1
-
-
-
-
-#Moves player from A to B
-def movePlayer(_player, _target):
-    if(_target <= _player.position):
-        #If the Target is before current position, you must have passed go
-        _player.money += 200
-
-    _player.position = _target
 
 #Handels "turns" where the player is not in jail, can happen more than once a turn due to doubles
-def normalTurn(_player, _movement):
+def normalTurn(_player, _movement, _diceRoll):
      #Checks if Go was passed by seeing if where the player will be is a lower number than where it was
     targetPosition = (_player.position + _movement) % 40
     movePlayer(_player, targetPosition)
@@ -274,15 +246,15 @@ def normalTurn(_player, _movement):
 
     # ALL DECSIONS FOLLOW THIS POINT##
     if space.isProperty:
-        OnProperty(_player, space)
+        OnProperty(_player, space, _diceRoll)
     else:
         OnSpecial(_player, space)
 
     #Checks if they have sets so they can start building houses
     if(len(_player.ownedSets) != 0):
-        buyHouses(_player)
+        #buyHouses(_player)
+        1 == 1
 
-lastDiceRoll = 0
 #Main Action
 def TakeTurn(_player):
     
@@ -302,18 +274,21 @@ def TakeTurn(_player):
             payFor(_player, 50, False)
     
     lastDiceRoll = DiceRoll[2]
-    normalTurn(_player, DiceRoll[2])
+    normalTurn(_player, DiceRoll[2],lastDiceRoll)
     if DiceRoll[0] == DiceRoll[1] and _player.inJail == False:
         DiceRoll = roll2d6()
         lastDiceRoll = DiceRoll[2]
-        normalTurn(_player, DiceRoll[2])
+        normalTurn(_player, DiceRoll[2],lastDiceRoll)
         if DiceRoll[0] == DiceRoll[1]:
             DiceRoll = roll2d6()
             lastDiceRoll = DiceRoll[2]
-            normalTurn(_player, DiceRoll[2])
+            normalTurn(_player, DiceRoll[2],lastDiceRoll)
             if DiceRoll[0] == DiceRoll[1]:
                 goToJail(_player)
                 return
+
+## SECTION FOUR CORE GAME LOOP ##
+# The main game loop, and some debug functions
 
 def addToLog(_txt):
     log = open(os.path.join(scriptpath,"MonopolyLog.txt"), "a")
@@ -351,7 +326,7 @@ def game():
                 addToLog(str(Players[0].id) + " won in " +str(TurnNumber)+ " turns")
                 GameOver = True
 
-        if TurnNumber == 100000:
+        if TurnNumber == 500:
             #For Dedug
             print('Game was a tie, remaining players were:')
 
