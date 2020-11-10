@@ -1,4 +1,4 @@
- #Auto Monopoly
+#Auto Monopoly
 #A Monopoly simulation by ASH
 #This Part feature all functions that are run once when initlizing the game
 

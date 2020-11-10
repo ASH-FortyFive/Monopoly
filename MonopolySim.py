@@ -15,6 +15,7 @@ import operator
 import MonopolySimInit 
 from MonopolySimInit import Space
 from MonopolySimInit import Player
+import MonopolyAgent 
 import random
 
 #Functions to do very basic things
@@ -34,7 +35,7 @@ possibleSetMulti = 1.5
 possibleSetPercent = .2
 
 emptySetPercent = .1
-
+##TEMPORARY## 
 
 GameOver = False
 
@@ -42,7 +43,7 @@ GameOver = False
 initalMoney = 1500
 RemainingHouses = 32
 RemainingHotels = 12
-NumberOfPlayers = 3
+NumberOfPlayers = 4
 
 
 #All the Data to do with individual Properties
@@ -55,7 +56,6 @@ Spaces = []
 Players = []
 
 
-
 scriptpath = os.path.dirname(__file__)
 #Reads CSV file for information about the Game
 #First it Reads the Token Names File
@@ -64,36 +64,6 @@ TokenNames = MonopolySimInit.ReadTokens(os.path.join(scriptpath, 'MonopolyData -
 Spaces = MonopolySimInit.ReadSpaces(os.path.join(scriptpath,'MonopolyData - Spaces.txt'))
 #Initlisizes Players
 Players = MonopolySimInit.genPlayers(NumberOfPlayers, TokenNames, initalMoney)
-
-
-
-#Sets / Resets all values that can change
-def InitGame():
-    GameOver = False
-
-    #Sets inital Values
-    initalMoney = 1500
-    RemainingHouses = 32
-    RemainingHotels = 12
-    NumberOfPlayers = 3
-
-
-    #All the Data to do with individual Properties
-    #Attaches Set Colors to Numbers, for clarity
-    SetColour = MonopolySimInit.SetColour
-
-
-    #Clears players and Spaces
-    Spaces = [] 
-    Players = []
-
-    #Reads CSV file for information about the Game
-    #First it Reads the Token Names File
-    TokenNames = MonopolySimInit.ReadTokens('MonopolyData - Tokens.txt')
-    #Then the Spaces File
-    Spaces = MonopolySimInit.ReadSpaces('MonopolyData - Spaces.txt')
-    #Initlisizes Players
-    Players = MonopolySimInit.genPlayers(NumberOfPlayers, TokenNames, initalMoney)
 
 #Handels Landing on Special Spaces
 #Not a very elegant solution
@@ -113,6 +83,7 @@ def OnSpecial(_player, _space):
     #All spaces that 'do' nothing
     elif(_space.id == "Free Parking" or "Go" or "Jail"):
         1 == 1
+        #Does Nothing
     else:
         print("Error, invalid non-property space with the label " + str(_space.id))
 
@@ -392,10 +363,10 @@ def TakeTurn(_player):
                 return
 
 def addToLog(_txt):
-    f = open(os.path.join(scriptpath,"MonopolyLog.txt"), "a")
-    f.write('\n')
-    f.write(str(_txt))
-    f.close()
+    log = open(os.path.join(scriptpath,"MonopolyLog.txt"), "a")
+    log.write('\n')
+    log.write(str(_txt))
+    log.close()
     
  #Main Loop   
 def game():
@@ -413,29 +384,38 @@ def game():
             playerToCheck = 0
             while playerToCheck < len(Players):
                 if Players[playerToCheck].money <= 0:
-                    #print(Players[playerToCheck].id + " is Bankrupt!")
+
+                    print(Players[playerToCheck].id + " is Bankrupt!")
+                    
                     Players.remove(Players[playerToCheck])
                 playerToCheck += 1
+
+            # Monopoly ends when the second player is bankrupt
             if len(Players) == 1:
-                #print(str(Players[0].id) + " won in " +str(TurnNumber)+ " turns")
+
+                #For Dedug
+                print(str(Players[0].id) + " won in " +str(TurnNumber)+ " turns")
+
                 addToLog(str(Players[0].id) + " won in " +str(TurnNumber)+ " turns")
                 GameOver = True
 
-        if TurnNumber == 1000:
-            #print('Game was a tie, remaining players were:')
+        if TurnNumber == 100000:
+            #For Dedug
+            print('Game was a tie, remaining players were:')
+
             addToLog('Game was a tie, remaining players were:')
             Players.sort(key=operator.attrgetter('money'))
             Players.reverse()
             for player in Players:
                 addToLog((player.id + ': ' + str(player.money)))
-                #print(player.id + ': ' + str(player.money))
+                #For Dedug
+                print(player.id + ': ' + str(player.money))
+                
                 GameOver = True
 
         TurnNumber += 1
 
         
-
-GameOver = False
 game()
 
 

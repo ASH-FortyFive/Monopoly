@@ -1,5 +1,74 @@
 
-Penguin won in 15 turns
 Game was a tie, remaining players were:
-Rubber Ducky: 18245
-Race Car: 16495
+Penguin: 17026
+Top Hat: 15964
+Race Car won in 65 turns
+Game was a tie, remaining players were:
+T-Rex: 17948
+Rubber Ducky: 16385
+Scottish Terrier won in 36 turns
+Scottish Terrier won in 36 turns
+Penguin won in 52 turns
+Game was a tie, remaining players were:
+Scottish Terrier: 18106
+Battleship: 17095
+Penguin: 15761
+T-Rex: 15680
+Battleship won in 24 turns
+Game was a tie, remaining players were:
+Scottish Terrier: 1789395
+Battleship: 1047827
+Penguin: 926657
+Rubber Ducky won in 849 turns
+Scottish Terrier won in 22 turns
+Game was a tie, remaining players were:
+Race Car: 1864691
+Penguin: 1632436
+Scottish Terrier: 1547728
+Rubber Ducky won in 40 turns
+Rubber Ducky won in 40 turns
+Cat won in 45 turns
+Game was a tie, remaining players were:
+Cat: 1757949
+Scottish Terrier: 1688371
+Battleship: 1527378
+Top Hat: 1496265
+Game was a tie, remaining players were:
+Penguin: 1668418
+Rubber Ducky: 1617336
+T-Rex: 1381500
+
+Game: 1
+Game was a tie, remaining players were:
+Cat: 1713984
+Rubber Ducky: 1688702
+Top Hat: 1550580
+Scottish Terrier: 1536580
+
+Game: 1
+Game was a tie, remaining players were:
+T-Rex: 1906364
+Cat: 1668059
+Rubber Ducky: 1471483
+Penguin: 1412290
+Penguin won in 31 turns
+Penguin won in 31 turns
+Game was a tie, remaining players were:
+Top Hat: 1366379
+Penguin: 1294198
+Game was a tie, remaining players were:
+Rubber Ducky: 1743295
+Race Car: 1092277
+Battleship: 975972
+Game was a tie, remaining players were:
+Penguin: 1840612
+Top Hat: 1174363
+Cat: 977538
+Race Car: 974396
+T-Rex won in 45 turns
+Battleship won in 1298 turns
+Game was a tie, remaining players were:
+T-Rex: 1743211
+Race Car: 1530904
+Top Hat: 1491066
+Cat: 1244438
