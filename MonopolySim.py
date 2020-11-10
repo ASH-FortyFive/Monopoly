@@ -1,4 +1,4 @@
- #Auto Monopoly
+#Auto Monopoly
 #A Monopoly simulation by ASH
 #This Part is the "main script" that references all others
 
@@ -10,32 +10,16 @@
 import sys
 import os
 import os.path
-
 import operator
-import MonopolySimInit 
-from MonopolySimInit import Space
-from MonopolySimInit import Player
-import MonopolyAgent 
 import random
 
-#Functions to do very basic things
-def roll2d6():
-    rollList = [random.randint(1,6),random.randint(1,6)]
-    rollList.append(rollList[0] + rollList[1])
-    return rollList
+import MonopolySimInit 
+from MonopolySimInit import Space
 
-##TEMPORARY## 
-#Information for "Bots"
-minimumSafteyNet = 250
-#Knobs to fiddle with
-completeSetMulti = 3
-completeSetPercent = .5
+import MonopolyAgent 
+from MonopolyAgent import Player
 
-possibleSetMulti = 1.5
-possibleSetPercent = .2
 
-emptySetPercent = .1
-##TEMPORARY## 
 
 GameOver = False
 
@@ -43,7 +27,7 @@ GameOver = False
 initalMoney = 1500
 RemainingHouses = 32
 RemainingHotels = 12
-NumberOfPlayers = 4
+NumberOfPlayers = 3
 
 
 #All the Data to do with individual Properties
@@ -64,6 +48,93 @@ TokenNames = MonopolySimInit.ReadTokens(os.path.join(scriptpath, 'MonopolyData -
 Spaces = MonopolySimInit.ReadSpaces(os.path.join(scriptpath,'MonopolyData - Spaces.txt'))
 #Initlisizes Players
 Players = MonopolySimInit.genPlayers(NumberOfPlayers, TokenNames, initalMoney)
+
+
+#Functions to do very basic things
+def roll2d6():
+    rollList = [random.randint(1,6),random.randint(1,6)]
+    rollList.append(rollList[0] + rollList[1])
+    return rollList
+
+## SECTION ONE CHECKING VALUES ##
+# The functions here are used to check if later moves are valid/possible
+#Checks how many properties in a given set a player has
+
+def hasHowManyOfSet(_player, _colourSet):
+    amountOfSet = 0
+    for ownedProperty in _player.ownedProperties:
+        if ownedProperty.colourSet == _colourSet:
+            amountOfSet += 1
+    return amountOfSet
+
+# Checks if a Player has a full set of a given property
+def hasFullSet(_player, _colourSet):
+    amountOfSet = 0
+    amountOfSet = hasHowManyOfSet(_player, _colourSet)
+    #Returns true when part of a small set
+    if((_colourSet == 0 or _colourSet == 7) and amountOfSet == 2):
+        return True
+    #Returns true when part of a large set
+    elif((_colourSet != 0 and _colourSet != 7 and _colourSet != 8 and _colourSet != 9 and _colourSet != 10) and amountOfSet == 3):
+        return True
+    else:
+        return False
+
+#Returns the current max number of houses on a property
+def maxHouseLevel(_set):
+    levels = []
+    for position in MonopolySimInit.PropertiesInSet[_set]:
+        levels.append(Spaces[position].numberOfHouses)
+
+    #Checks if all values are the same or not
+    if(len(levels) == 2):
+        if(levels[0] == levels[1]):
+            if (max(levels) == 5):
+                return 5
+            else:
+                return max(levels) + 1
+    elif(len(levels) == 3):
+        if(levels[0] == levels[1]) and (levels[1] == levels[2]):
+            if (max(levels) == 5):
+                return 5
+            else:
+                return max(levels) + 1
+    else:
+        print('Set with too many properties')
+    
+    return max(levels)
+
+## SECTION TWO EFFECTING PLAYER ##
+# The functions here effect he player in various ways
+
+#Handels Paying For Things ##INCOMPLETE
+def payFor(_player, _amount, _target):
+    if(_player.money >= _amount):
+        _player.money -= _amount
+    else:
+        #Complicated Code that needs to be added to acount for selling things
+        _player.money -= _amount
+    if((type(_target).__name__) == "instance"):
+        _target.money += _amount
+
+#Buying and Selling Properties is always done with these functions
+#This is done in part so that updating the list of owned sets remains accurate
+def buyProperty(_player, _space, _cost):
+    payFor(_player, _cost, False)
+    _space.owner = _player
+    _player.ownedProperties.append(_space)
+    if(hasFullSet(_player, _space.colourSet)):
+        #print(_player.id + " got set " + str(_space.colourSet))
+        _player.ownedSets.append(_space.colourSet)
+        _player.ownedSets.sort()
+
+def sellProperty(_player, _space, _cost):
+    payFor(_player, _space.cost, False)
+    _space.owner = None
+    _player.ownedProperties.remove(_space)
+    _player.ownedSets.remove(_space.colourSet)
+    _player.ownedSets.sort()
+
 
 #Handels Landing on Special Spaces
 #Not a very elegant solution
@@ -88,63 +159,11 @@ def OnSpecial(_player, _space):
         print("Error, invalid non-property space with the label " + str(_space.id))
 
 
-
-#Checks if a Player has a full set of a given property
-def hasHowManyOfSet(_player, _colourSet):
-    amountOfSet = 0
-    for ownedProperty in _player.ownedProperties:
-        #print(str(ownedProperty.colourSet) +" "+ str(_colourSet) + " " + str(ownedProperty.colourSet == _colourSet))
-        if ownedProperty.colourSet == _colourSet:
-            #print(_player.id + " owns " + ownedProperty.id)
-            amountOfSet += 1
     
-    #print((_player.id + " has " + str(amountOfSet) + " of colour set "+ str(_colourSet)))
-    
-    return amountOfSet
-
-def hasFullSet(_player, _colourSet):
-    amountOfSet = 0
-    amountOfSet = hasHowManyOfSet(_player, _colourSet)
-    if((_colourSet == 0 or _colourSet == 7) and amountOfSet == 2):
-        return True
-    elif((_colourSet != 0 and _colourSet != 7 and _colourSet != 8 and _colourSet != 9 and _colourSet != 10) and amountOfSet == 3):
-        return True
-    else:
-        return False
-    
-#Handels Paying For Thingst
-def payFor(_player, _amount, _target):
-    if(_player.money >= _amount):
-        _player.money -= _amount
-    else:
-        #Complicated Code that needs to be added
-        _player.money -= _amount
-    if((type(_target).__name__) == "instance"):
-        _target.money += _amount
 
 
-#Buying and Selling Properties is always done with these functions
-#This is done in part so that updating the list of owned sets remains accurate
-def buyProperty(_player, _space, _cost):
-    ##DEBUG
-    #print(_space.id + " bought by " + _player.id)
-    #for play in Players:
-    #    print(play.id + " would "+ str(propertyValue(play, _space))+ ", in set " + str(hasHowManyOfSet(play, _space.colourSet)) + ", bling "+ str(play.money))
-    ##DEBUG
-    payFor(_player, _cost, False)
-    _space.owner = _player
-    _player.ownedProperties.append(_space)
-    if(hasFullSet(_player, _space.colourSet)):
-        #print(_player.id + " got set " + str(_space.colourSet))
-        _player.ownedSets.append(_space.colourSet)
-        _player.ownedSets.sort()
 
-def sellProperty(_player, _space, _cost):
-    payFor(_player, _space.cost, False)
-    _space.owner = None
-    _player.ownedProperties.remove(_space)
-    _player.ownedSets.remove(_space.colourSet)
-    _player.ownedSets.sort()
+
 
 #When a property is not purchased
 def auctionProperty(_player, _space):
@@ -158,67 +177,21 @@ def auctionProperty(_player, _space):
     while i < (len(Players)):
         auctionOrder.append(Players[(auctionIndex + i) % len(Players)])
         i += 1
+
+    # NEEDS TO BE ADDED#
+
     currentBidder = auctionOrder[0]
     while(currentBid != previousBid):
         previousBid = currentBid
         for bidder in auctionOrder:
-            if(propertyValue(bidder, _space) > currentBid):
-                currentBid += 10
                 currentBidder = bidder
 
     #print(bidder.id + ' bought ' + _space.id + ' for ' + str(currentBid))
 
-#This is how much a basic "AI" player values a property used in auctions and maybe trades
-def propertyValue(_player, _space):
-    possibleValue = 0
-    value = _space.cost
-    colourSet = _space.colourSet
-    amountOfSet = hasHowManyOfSet(_player, colourSet)
-
-    #The First if statement checks if this property would complete a set
-    if(((colourSet == 0 or 7 or 9) and (amountOfSet == 1)) \
-    or ((colourSet != 0 or 7 or 9 or 8) and (amountOfSet == 2)) \
-    or ((colourSet == 8) and(amountOfSet == 3 or 2))):
-        #The value here is arbirarty and can be changed
-        #Current Logic is as follow, sets are really good and the AI will do anything short of bankrupting itself to buy them
-        if(((_space.cost  * completeSetMulti) + (_player.money * completeSetPercent)) < (_player.money- minimumSafteyNet)):
-            #print("1")
-            value = ((_space.cost  * completeSetMulti) + (_player.money * completeSetPercent))
-        elif(((_space.cost  * completeSetMulti)) < (_player.money- minimumSafteyNet)):
-            #print("2")
-            value = ((_space.cost  * completeSetMulti))
-        elif(((_space.cost + (_player.money * completeSetPercent)) < (_player.money- minimumSafteyNet))):
-            #print("3")
-            value = ((_space.cost + (_player.money * completeSetPercent)))
-        elif(((_space.cost + (_player.money * possibleSetPercent)) < (_player.money- minimumSafteyNet))):
-            #print("4")
-            value = ((_space.cost + (_player.money * possibleSetPercent)))
-    #This shows that they have one of the set
-    elif(amountOfSet == 1):
-        #The value here is arbirarty and can be changed
-        #Current Logic is as follow, sets are really good and the AI will do anything short of bankrupting itself to buy them
-        if(((_space.cost  * possibleSetMulti ) + (_player.money * possibleSetPercent )) < (_player.money- minimumSafteyNet)):
-            #print("5")
-            value = ((_space.cost  * possibleSetMulti ) + (_player.money * possibleSetPercent ))
-        elif(((_space.cost  * possibleSetMulti )) < (_player.money- minimumSafteyNet)):
-            #print("6")
-            value = ((_space.cost  * possibleSetMulti ))
-        elif(((_space.cost + (_player.money * possibleSetPercent)) < (_player.money- minimumSafteyNet))):
-            #print("7")
-            value = ((_space.cost + (_player.money * possibleSetPercent)))
-    else:
-        if(((_space.cost + (_player.money * emptySetPercent)) < (_player.money- minimumSafteyNet))):
-            #print("8")
-            value = ((_space.cost + (_player.money * emptySetPercent)))
-        else:
-            #print("9")
-            value = _player.money- minimumSafteyNet
-    return value   
-
 #Handels Landing on Property
 def OnProperty(_player, _space):
-    #This Part is A temprary algorythm, eventually to be replaced
     if _space.owner == None:
+        # NEEDS TO BE CHANGED #
         if(_player.money >= _space.cost):
             buyProperty(_player, _space, _space.cost)
         else:
@@ -247,13 +220,9 @@ def OnProperty(_player, _space):
                 payFor(_player, _space.rentList[_space.numberOfHouses], _space.owner)
         
 def goToJail(_player):
-    #print(_player.id + " went to Jail")
     _player.inJail = True
     _player.turnsInJail = 0
     _player.position = 10
-
-RemainingHouses = 32
-RemainingHotels = 12
 
 #Temporary Function that lets the Bots build houses
 def buyHouses(_player):
@@ -281,51 +250,35 @@ def buyHouses(_player):
                     space.numberOfHouses += 1
 
 
-#Returns the current max number of houses on a property
-def maxHouseLevel(_set):
-    levels = []
-    for position in MonopolySimInit.PropertiesInSet[_set]:
-        levels.append(Spaces[position].numberOfHouses)
 
-    #Checks if all values are the same or not
-    if(len(levels) == 2):
-        if(levels[0] == levels[1]):
-            if (max(levels) == 5):
-                return 5
-            else:
-                return max(levels) + 1
-    elif(len(levels) == 3):
-        if(levels[0] == levels[1]) and (levels[1] == levels[2]):
-            if (max(levels) == 5):
-                return 5
-            else:
-                return max(levels) + 1
-    else:
-        print('Set with too many properties')
-    
-    return max(levels)
-    
+
+#Moves player from A to B
+def movePlayer(_player, _target):
+    if(_target <= _player.position):
+        #If the Target is before current position, you must have passed go
+        _player.money += 200
+
+    _player.position = _target
+
 #Handels "turns" where the player is not in jail, can happen more than once a turn due to doubles
 def normalTurn(_player, _movement):
      #Checks if Go was passed by seeing if where the player will be is a lower number than where it was
     targetPosition = (_player.position + _movement) % 40
-    if(targetPosition <= _player.position):
-        #If the Target is before current position, you must have passed go
-        _player.money += 200
-    _player.position = (_player.position + _movement) % 40
+    movePlayer(_player, targetPosition)
 
     _player.inJail = False
     _player.turnsInJail = 0
 
     space = Spaces[_player.position]
    
+
+    # ALL DECSIONS FOLLOW THIS POINT##
     if space.isProperty:
         OnProperty(_player, space)
     else:
         OnSpecial(_player, space)
 
     #Checks if they have sets so they can start building houses
-    setsAlreadyChecked = []
     if(len(_player.ownedSets) != 0):
         buyHouses(_player)
 
@@ -370,7 +323,6 @@ def addToLog(_txt):
     
  #Main Loop   
 def game():
-
     ##For Keeping Logs
     TurnNumber = 1
     
