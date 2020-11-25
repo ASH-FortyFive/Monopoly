@@ -1,4 +1,4 @@
- #Auto Monopoly
+#Auto Monopoly
 #A Monopoly simulation by ASH
 #This Part feature all functions that are run once when initlizing the game
 
@@ -8,6 +8,7 @@
 #Imports
 import csv
 import random
+from MonopolyAgent import Player 
 
 #All the Data to do with individual Properties
 #Attaches Set Colors to Numbers, for clarity
@@ -58,22 +59,6 @@ class Space:
         self.cost = _Cost
         self.costOfHouse = _CostOfHouse
         self.rentList = _RentList
-
-#Defines the Player class, which contains the informatin needed about each player (PC and NPC)
-class Player:
-    money = 0
-    ownedProperties = []
-    ownedSets = []
-    #Where they are on the board
-    position = 0
-    inJail = False
-    turnsInJail = 0
-    def __init__(self, _InitalMoney,id):
-        self.position = 0
-        self.money = _InitalMoney
-        self.id = id
-        self.ownedProperties = []
-        self.ownedSets = []
 
 #Reads a CSV to get player/token names
 #Returns a list

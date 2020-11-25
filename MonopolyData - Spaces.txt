@@ -1,4 +1,4 @@
-Is it Property,Name,Set Colour,Value,HouseCost,Rent0,Rent1,Rent2,Rent3,Rent4,Rent5,MorageValue
+Is it Property,Name,Set Colour,Value,HouseCost,Rent0,Rent1,Rent2,Rent3,Rent4,Rent5,Mortgages
 Special,Go
 Property,Old Kent Road,Brown,60,30,2,10,30,90,160,250
 Special,Community

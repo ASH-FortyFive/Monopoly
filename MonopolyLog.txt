@@ -1,5 +1,2524 @@
-
-Penguin won in 15 turns
-Game was a tie, remaining players were:
-Rubber Ducky: 18245
-Race Car: 16495
+Battleship: 
+	(Battleship) First  roll: 6 + 5
+	(Battleship) is on Pall Mall
+	(Battleship) Paid 140 to the Bank
+	(Battleship) bought Pall Mall for 140(1360 left)
+Top Hat: 
+	(Top Hat) First  roll: 3 + 3
+	(Top Hat) is on The Angel Islington
+	(Top Hat) Paid 100 to the Bank
+	(Top Hat) bought The Angel Islington for 100(1400 left)
+	(Top Hat) Second  roll: 1 + 2
+	(Top Hat) is on Pentonville Road
+	(Top Hat) Paid 120 to the Bank
+	(Top Hat) bought Pentonville Road for 120(1280 left)
+Penguin: 
+	(Penguin) First  roll: 6 + 2
+	(Penguin) is on Euston Road
+	(Penguin) Paid 100 to the Bank
+	(Penguin) bought Euston Road for 100(1400 left)
+Battleship: 
+	(Battleship) First  roll: 2 + 1
+	(Battleship) is on Northumberland Avenue
+	(Battleship) Paid 160 to the Bank
+	(Battleship) bought Northumberland Avenue for 160(1200 left)
+Top Hat: 
+	(Top Hat) First  roll: 3 + 2
+	(Top Hat) is on Northumberland Avenue
+	(Top Hat) Paid 12 to Battleship
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+	(Penguin) is on Whitehall
+	(Penguin) Paid 140 to the Bank
+	(Penguin) bought Whitehall for 140(1260 left)
+Battleship: 
+	(Battleship) First  roll: 4 + 3
+	(Battleship) is on Strand
+	(Battleship) Paid 220 to the Bank
+	(Battleship) bought Strand for 220(992 left)
+Top Hat: 
+	(Top Hat) First  roll: 5 + 4
+	(Top Hat) is on Fleet Street
+	(Top Hat) Paid 220 to the Bank
+	(Top Hat) bought Fleet Street for 220(1048 left)
+Penguin: 
+	(Penguin) First  roll: 6 + 6
+	(Penguin) is on Fenchurch Street Station
+	(Penguin) Paid 200 to the Bank
+	(Penguin) bought Fenchurch Street Station for 200(1060 left)
+	(Penguin) Second  roll: 2 + 6
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Coventry Street
+	(Battleship) Paid 260 to the Bank
+	(Battleship) bought Coventry Street for 260(732 left)
+Top Hat: 
+	(Top Hat) First  roll: 3 + 4
+	(Top Hat) is on Go To Jail
+	(Top Hat) Went to Jail
+Penguin: 
+	(Penguin) First  roll: 6 + 2
+	(Penguin) is on Old Kent Road
+	(Penguin) Paid 60 to the Bank
+	(Penguin) bought Old Kent Road for 60(1200 left)
+Battleship: 
+	(Battleship) First  roll: 6 + 6
+	(Battleship) is on Mayfair
+	Mayfair is up for auction!
+		Auction Order is: Battleship, Top Hat, Penguin, 
+		Battleship bids 41
+		Top Hat bids 98
+		Penguin bids 163
+		Battleship bids 204
+		Top Hat bids 261
+		Penguin bids 326
+		Top Hat bids 383
+		Penguin bids 448
+		Penguin won the auction at 448
+	(Battleship) Second  roll: 6 + 4
+	(Battleship) is on Pentonville Road
+	(Battleship) Paid 6 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 4 + 3
+Penguin: 
+	(Penguin) First  roll: 4 + 6
+	(Penguin) is on Pall Mall
+	(Penguin) Paid 10 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Whitehall
+	(Battleship) Paid 10 to Penguin
+	(Battleship) Second  roll: 3 + 1
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 3 + 5
+Penguin: 
+	(Penguin) First  roll: 5 + 6
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Trafalgar Square
+	(Battleship) Paid 240 to the Bank
+	(Battleship) bought Trafalgar Square for 240(686 left)
+Top Hat: 
+	(Top Hat) First  roll: 2 + 5
+Penguin: 
+	(Penguin) First  roll: 2 + 2
+	(Penguin) is on Leicester Square
+	(Penguin) Paid 260 to the Bank
+	(Penguin) bought Leicester Square for 260(940 left)
+	(Penguin) Second  roll: 1 + 2
+	(Penguin) is on Piccadilly
+	(Penguin) Paid 280 to the Bank
+	(Penguin) bought Piccadilly for 280(660 left)
+Battleship: 
+	(Battleship) First  roll: 4 + 1
+	(Battleship) is on Piccadilly
+	(Battleship) Paid 24 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 2 + 5
+	(Top Hat) Paid 50 to the Bank
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 1 + 5
+	(Penguin) is on Liverpool Street station
+	(Penguin) Paid 200 to the Bank
+	(Penguin) bought Liverpool Street station for 200(484 left)
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Community
+	(Battleship) Second  roll: 5 + 6
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 1 + 2
+	(Top Hat) is on Free Parking
+Penguin: 
+	(Penguin) First  roll: 5 + 4
+	(Penguin) is on Income Tax
+	(Penguin) Paid 200 to the Bank
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Jail
+Top Hat: 
+	(Top Hat) First  roll: 5 + 5
+	(Top Hat) is on Go To Jail
+	(Top Hat) Went to Jail
+Penguin: 
+	(Penguin) First  roll: 3 + 4
+	(Penguin) is on Pall Mall
+	(Penguin) Paid 10 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 5
+	(Battleship) is on Free Parking
+	(Battleship) Second  roll: 4 + 3
+	(Battleship) is on Coventry Street
+Top Hat: 
+	(Top Hat) First  roll: 4 + 2
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 4 + 6
+	(Battleship) is on Park Lane
+	Park Lane is up for auction!
+		Auction Order is: Battleship, Top Hat, Penguin, 
+		Battleship bids 38
+		Top Hat bids 93
+		Penguin bids 121
+		Battleship bids 159
+		Top Hat bids 214
+		Battleship bids 252
+		Top Hat bids 307
+		Top Hat won the auction at 307
+Top Hat: 
+	(Top Hat) First  roll: 5 + 2
+Penguin: 
+	(Penguin) First  roll: 3 + 5
+	(Penguin) is on Fenchurch Street Station
+Battleship: 
+	(Battleship) First  roll: 3 + 4
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 1 + 6
+Penguin: 
+	(Penguin) First  roll: 5 + 6
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 5 + 2
+	(Battleship) is on Pall Mall
+Top Hat: 
+	(Top Hat) First  roll: 5 + 6
+	(Top Hat) Paid 50 to the Bank
+	(Top Hat) is on Strand
+	(Top Hat) Paid 18 to Battleship
+Penguin: 
+	(Penguin) First  roll: 6 + 4
+	(Penguin) is on The Angel Islington
+	(Penguin) Paid 6 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 3 + 6
+	(Battleship) is on Free Parking
+Top Hat: 
+	(Top Hat) First  roll: 2 + 3
+	(Top Hat) is on Leicester Square
+	(Top Hat) Paid 22 to Penguin
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on Electric Company
+	(Penguin) Paid 150 to the Bank
+	(Penguin) bought Electric Company for 150(540 left)
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Leicester Square
+	(Battleship) Paid 22 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+	(Top Hat) is on Bond Street
+	Bond Street is up for auction!
+		Auction Order is: Top Hat, Penguin, Battleship, 
+		Top Hat bids 51
+		Penguin bids 84
+		Battleship bids 122
+		Top Hat bids 173
+		Penguin bids 206
+		Battleship bids 244
+		Top Hat bids 295
+		Top Hat won the auction at 295
+Penguin: 
+	(Penguin) First  roll: 1 + 4
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 5 + 2
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 6 + 3
+	(Top Hat) is on Whitechapel Road
+	(Top Hat) Paid 60 to the Bank
+	(Top Hat) bought Whitechapel Road for 60(1060 left)
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Go
+Top Hat: 
+	(Top Hat) First  roll: 3 + 4
+	(Top Hat) is on Jail
+Penguin: 
+	(Penguin) First  roll: 3 + 3
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 5 + 4
+	(Battleship) is on Pentonville Road
+	(Battleship) Paid 6 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+	(Top Hat) is on Marlborough Street
+	(Top Hat) Paid 180 to the Bank
+	(Top Hat) bought Marlborough Street for 180(886 left)
+Penguin: 
+	(Penguin) First  roll: 3 + 3
+	(Penguin) is on Bow Street
+	(Penguin) Paid 180 to the Bank
+	(Penguin) bought Bow Street for 180(362 left)
+	(Penguin) Second  roll: 6 + 2
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 3 + 4
+	(Battleship) is on Bow Street
+	(Battleship) Paid 14 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 1 + 4
+	(Top Hat) is on Fleet Street
+Penguin: 
+	(Penguin) First  roll: 4 + 4
+	(Penguin) is on Oxford Street
+	Oxford Street is up for auction!
+		Auction Order is: Penguin, Battleship, Top Hat, 
+		Penguin bids 22
+		Battleship bids 71
+		Top Hat bids 120
+		Battleship bids 169
+		Top Hat bids 218
+		Battleship bids 267
+		Top Hat bids 316
+		Top Hat won the auction at 316
+	(Penguin) Second  roll: 2 + 6
+	(Penguin) is on Go
+Battleship: 
+	(Battleship) First  roll: 1 + 6
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 1 + 2
+	(Top Hat) is on Leicester Square
+	(Top Hat) Paid 22 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 6
+	(Penguin) is on Jail
+Battleship: 
+	(Battleship) First  roll: 6 + 6
+	(Battleship) is on Liverpool Street station
+	(Battleship) Paid 50 to Penguin
+	(Battleship) Second  roll: 2 + 2
+	(Battleship) is on Mayfair
+	Mayfair is up for auction!
+		Auction Order is: Battleship, Top Hat, Penguin, 
+		Battleship bids 46
+		Top Hat bids 95
+		Penguin bids 131
+		Battleship bids 177
+		Top Hat bids 226
+		Battleship bids 272
+		Top Hat bids 321
+		Top Hat won the auction at 321
+	(Battleship) Third  roll: 5 + 3
+	(Battleship) is on Chance
+Top Hat: 
+	(Top Hat) First  roll: 4 + 3
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 3 + 5
+	(Penguin) is on Marlborough Street
+	(Penguin) Paid 14 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Pall Mall
+	(Battleship) Second  roll: 6 + 6
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+	(Battleship) Third  roll: 2 + 3
+	(Battleship) is on Water Works
+	(Battleship) Paid 150 to the Bank
+	(Battleship) bought Water Works for 150(852 left)
+Top Hat: 
+	(Top Hat) First  roll: 6 + 1
+	(Top Hat) is on Go
+Penguin: 
+	(Penguin) First  roll: 2 + 3
+	(Penguin) is on Fleet Street
+	(Penguin) Paid 18 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 5 + 3
+	(Battleship) is on Chance
+Top Hat: 
+	(Top Hat) First  roll: 5 + 1
+	(Top Hat) is on The Angel Islington
+Penguin: 
+	(Penguin) First  roll: 5 + 3
+	(Penguin) is on Regent Street
+	Regent Street is up for auction!
+		Auction Order is: Penguin, Battleship, Top Hat, 
+		Penguin bids 34
+		Battleship bids 81
+		Top Hat bids 142
+		Penguin bids 176
+		Battleship bids 223
+		Top Hat bids 284
+		Top Hat won the auction at 284
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 6 + 1
+	(Top Hat) is on Whitehall
+	(Top Hat) Paid 10 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 3
+	(Penguin) is on Park Lane
+	Park Lane is up for auction!
+		Auction Order is: Penguin, Battleship, Top Hat, 
+		Penguin bids 35
+		Battleship bids 92
+		Top Hat bids 153
+		Penguin bids 188
+		Battleship bids 245
+		Top Hat bids 306
+		Battleship bids 363
+		Top Hat bids 424
+		Top Hat won the auction at 424
+	(Penguin) Second  roll: 1 + 3
+	(Penguin) is on Old Kent Road
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Pentonville Road
+	(Battleship) Paid 6 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 2 + 2
+	(Top Hat) is on Community
+	(Top Hat) Second  roll: 1 + 1
+	(Top Hat) is on Vine Street
+	(Top Hat) Paid 200 to the Bank
+	(Top Hat) bought Vine Street for 200(928 left)
+	(Top Hat) Third  roll: 1 + 6
+	(Top Hat) is on Leicester Square
+	(Top Hat) Paid 22 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 6
+	(Penguin) is on Jail
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Marylebone Station
+	(Battleship) Paid 200 to the Bank
+	(Battleship) bought Marylebone Station for 200(846 left)
+Top Hat: 
+	(Top Hat) First  roll: 6 + 4
+	(Top Hat) is on Chance
+Penguin: 
+	(Penguin) First  roll: 1 + 6
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Chance
+Top Hat: 
+	(Top Hat) First  roll: 3 + 3
+	(Top Hat) is on Community
+	(Top Hat) Second  roll: 6 + 3
+	(Top Hat) is on Pall Mall
+	(Top Hat) Paid 10 to Battleship
+Penguin: 
+	(Penguin) First  roll: 1 + 5
+	(Penguin) is on Fleet Street
+	(Penguin) Paid 18 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+	(Battleship) is on Piccadilly
+	(Battleship) Paid 24 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 4 + 2
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 1 + 3
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 3 + 5
+	(Top Hat) is on Fenchurch Street Station
+	(Top Hat) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 1
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+	(Battleship) is on Super Tax
+	(Battleship) Paid 100 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 2 + 2
+	(Top Hat) is on Piccadilly
+	(Top Hat) Paid 24 to Penguin
+	(Top Hat) Second  roll: 4 + 6
+	(Top Hat) is on Mayfair
+	Mayfair is up for auction!
+		Auction Order is: Top Hat, Penguin, Battleship, 
+		Top Hat bids 57
+		Penguin bids 107
+		Battleship bids 148
+		Top Hat bids 205
+		Penguin bids 255
+		Top Hat bids 312
+		Top Hat won the auction at 312
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+Battleship: 
+	(Battleship) First  roll: 5 + 5
+	(Battleship) is on Euston Road
+	(Battleship) Paid 6 to Penguin
+	(Battleship) Second  roll: 5 + 6
+	(Battleship) is on Vine Street
+	(Battleship) Paid 16 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 3 + 5
+	(Top Hat) is on Chance
+Penguin: 
+	(Penguin) First  roll: 2 + 3
+Battleship: 
+	(Battleship) First  roll: 1 + 1
+	(Battleship) is on Strand
+	(Battleship) Second  roll: 1 + 1
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+	(Battleship) Third  roll: 3 + 5
+	(Battleship) is on Regent Street
+	Regent Street is up for auction!
+		Auction Order is: Battleship, Top Hat, Penguin, 
+		Battleship bids 49
+		Top Hat bids 117
+		Penguin bids 167
+		Battleship bids 216
+		Top Hat bids 284
+		Penguin bids 334
+		Top Hat bids 402
+		Top Hat won the auction at 402
+Top Hat: 
+	(Top Hat) First  roll: 1 + 6
+	(Top Hat) is on Northumberland Avenue
+	(Top Hat) Paid 12 to Battleship
+Penguin: 
+	(Penguin) First  roll: 4 + 2
+	(Penguin) Paid 50 to the Bank
+	(Penguin) is on Bow Street
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Park Lane
+	Park Lane is up for auction!
+		Auction Order is: Battleship, Top Hat, Penguin, 
+		Battleship bids 50
+		Top Hat bids 118
+		Penguin bids 166
+		Battleship bids 216
+		Top Hat bids 284
+		Penguin bids 332
+		Top Hat bids 400
+		Top Hat won the auction at 400
+Top Hat: 
+	(Top Hat) First  roll: 6 + 3
+	(Top Hat) is on Fleet Street
+Penguin: 
+	(Penguin) First  roll: 2 + 6
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 3 + 3
+	(Battleship) is on Whitechapel Road
+	(Battleship) Paid 4 to Top Hat
+	(Battleship) Second  roll: 3 + 4
+	(Battleship) is on Jail
+Top Hat: 
+	(Top Hat) First  roll: 6 + 5
+	(Top Hat) is on Bond Street
+	(Top Hat) Paid 320 to the Bank
+	(Top Hat) bought Bond Street for 320(946 left)
+Penguin: 
+	(Penguin) First  roll: 2 + 2
+	(Penguin) is on Water Works
+	(Penguin) Paid 16 to Battleship
+	(Penguin) Second  roll: 3 + 4
+	(Penguin) is on Liverpool Street station
+Battleship: 
+	(Battleship) First  roll: 6 + 3
+	(Battleship) is on Vine Street
+	(Battleship) Paid 16 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 2 + 2
+	(Top Hat) is on Super Tax
+	(Top Hat) Paid 100 to the Bank
+	(Top Hat) Second  roll: 4 + 1
+	(Top Hat) is on Whitechapel Road
+Penguin: 
+	(Penguin) First  roll: 5 + 3
+	(Penguin) is on Whitechapel Road
+	(Penguin) Paid 4 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Fenchurch Street Station
+	(Battleship) Paid 50 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 5 + 1
+	(Top Hat) is on Pentonville Road
+Penguin: 
+	(Penguin) First  roll: 2 + 2
+	(Penguin) is on Chance
+	(Penguin) Second  roll: 5 + 4
+	(Penguin) is on Bow Street
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Regent Street
+	(Battleship) Paid 300 to the Bank
+	(Battleship) bought Regent Street for 300(770 left)
+Top Hat: 
+	(Top Hat) First  roll: 2 + 4
+	(Top Hat) is on Marylebone Station
+	(Top Hat) Paid 25 to Battleship
+Penguin: 
+	(Penguin) First  roll: 4 + 6
+	(Penguin) is on Leicester Square
+Battleship: 
+	(Battleship) First  roll: 4 + 1
+	(Battleship) is on Chance
+Top Hat: 
+	(Top Hat) First  roll: 6 + 6
+	(Top Hat) is on Coventry Street
+	(Top Hat) Paid 22 to Battleship
+	(Top Hat) Second  roll: 4 + 4
+	(Top Hat) is on Liverpool Street station
+	(Top Hat) Paid 50 to Penguin
+	(Top Hat) Third  roll: 6 + 3
+	(Top Hat) is on Income Tax
+	(Top Hat) Paid 200 to the Bank
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 3 + 6
+	(Battleship) is on Kings Cross Station
+	(Battleship) Paid 200 to the Bank
+	(Battleship) bought Kings Cross Station for 200(817 left)
+Top Hat: 
+	(Top Hat) First  roll: 4 + 4
+	(Top Hat) is on Electric Company
+	(Top Hat) Paid 32 to Penguin
+	(Top Hat) Second  roll: 3 + 3
+	(Top Hat) is on Marlborough Street
+	(Top Hat) Third  roll: 3 + 4
+	(Top Hat) is on Fenchurch Street Station
+	(Top Hat) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 1 + 2
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 4 + 5
+	(Battleship) is on Northumberland Avenue
+Top Hat: 
+	(Top Hat) First  roll: 1 + 1
+	(Top Hat) is on Coventry Street
+	(Top Hat) Paid 22 to Battleship
+	(Top Hat) Second  roll: 3 + 1
+	(Top Hat) is on Regent Street
+	(Top Hat) Paid 26 to Battleship
+Penguin: 
+	(Penguin) First  roll: 2 + 3
+	(Penguin) is on Old Kent Road
+Battleship: 
+	(Battleship) First  roll: 6 + 5
+	(Battleship) is on Fenchurch Street Station
+	(Battleship) Paid 50 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 4 + 5
+	(Top Hat) is on Go
+Penguin: 
+	(Penguin) First  roll: 5 + 5
+	(Penguin) is on Pall Mall
+	(Penguin) Paid 10 to Battleship
+	(Penguin) Second  roll: 1 + 4
+	(Penguin) is on Bow Street
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+	(Battleship) is on Oxford Street
+	Oxford Street is up for auction!
+		Auction Order is: Battleship, Top Hat, Penguin, 
+		Battleship bids 46
+		Top Hat bids 102
+		Penguin bids 179
+		Battleship bids 225
+		Top Hat bids 281
+		Penguin bids 358
+		Penguin won the auction at 358
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+	(Top Hat) is on Income Tax
+	(Top Hat) Paid 200 to the Bank
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 2 + 3
+	(Battleship) is on Park Lane
+	Park Lane is up for auction!
+		Auction Order is: Battleship, Top Hat, Penguin, 
+		Battleship bids 46
+		Top Hat bids 92
+		Penguin bids 169
+		Battleship bids 215
+		Top Hat bids 261
+		Penguin bids 338
+		Penguin won the auction at 338
+Top Hat: 
+	(Top Hat) First  roll: 4 + 3
+	(Top Hat) is on Pall Mall
+	(Top Hat) Paid 10 to Battleship
+Penguin: 
+	(Penguin) First  roll: 3 + 5
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+	(Battleship) is on Euston Road
+	(Battleship) Paid 6 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+	(Top Hat) is on Vine Street
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+Battleship: 
+	(Battleship) First  roll: 4 + 1
+	(Battleship) is on Whitehall
+	(Battleship) Paid 10 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 3 + 6
+	(Top Hat) is on Water Works
+	(Top Hat) Paid 36 to Battleship
+Penguin: 
+	(Penguin) First  roll: 2 + 6
+Battleship: 
+	(Battleship) First  roll: 5 + 3
+	(Battleship) is on Strand
+Top Hat: 
+	(Top Hat) First  roll: 3 + 2
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 1 + 4
+Battleship: 
+	(Battleship) First  roll: 1 + 2
+	(Battleship) is on Trafalgar Square
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+	(Top Hat) is on Park Lane
+	Park Lane is up for auction!
+		Auction Order is: Top Hat, Penguin, Battleship, 
+		Top Hat bids 44
+		Penguin bids 122
+		Battleship bids 179
+		Top Hat bids 223
+		Penguin bids 301
+		Battleship bids 358
+		Penguin bids 436
+		Penguin won the auction at 436
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) Paid 50 to the Bank
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 1 + 1
+	(Battleship) is on Leicester Square
+	(Battleship) Paid 22 to Penguin
+	(Battleship) Second  roll: 2 + 4
+	(Battleship) is on Oxford Street
+	(Battleship) Paid 300 to the Bank
+	(Battleship) bought Oxford Street for 300(733 left)
+Top Hat: 
+	(Top Hat) First  roll: 6 + 2
+	(Top Hat) is on Kings Cross Station
+	(Top Hat) Paid 50 to Battleship
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 6 + 4
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 4 + 2
+	(Top Hat) is on Pall Mall
+	(Top Hat) Paid 10 to Battleship
+Penguin: 
+	(Penguin) First  roll: 4 + 1
+	(Penguin) is on Coventry Street
+	(Penguin) Paid 22 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on The Angel Islington
+	(Battleship) Paid 6 to Top Hat
+	(Battleship) Second  roll: 3 + 4
+	(Battleship) is on Whitehall
+	(Battleship) Paid 10 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 5 + 4
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 3 + 5
+	(Battleship) is on Strand
+Top Hat: 
+	(Top Hat) First  roll: 6 + 5
+	(Top Hat) is on Water Works
+	(Top Hat) Paid 44 to Battleship
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 1 + 1
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+	(Battleship) Second  roll: 1 + 6
+	(Battleship) is on Go To Jail
+	(Battleship) Went to Jail
+Top Hat: 
+	(Top Hat) First  roll: 2 + 3
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 4 + 2
+	(Penguin) is on Euston Road
+Battleship: 
+	(Battleship) First  roll: 2 + 3
+Top Hat: 
+	(Top Hat) First  roll: 5 + 6
+	(Top Hat) is on Income Tax
+	(Top Hat) Paid 200 to the Bank
+Penguin: 
+	(Penguin) First  roll: 6 + 3
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+	(Top Hat) is on Electric Company
+	(Top Hat) Paid 32 to Penguin
+Penguin: 
+	(Penguin) First  roll: 6 + 5
+	(Penguin) is on Water Works
+	(Penguin) Paid 44 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 5
+	(Battleship) is on Free Parking
+	(Battleship) Second  roll: 6 + 3
+	(Battleship) is on Piccadilly
+	(Battleship) Paid 24 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 6 + 5
+	(Top Hat) is on Fleet Street
+Penguin: 
+	(Penguin) First  roll: 1 + 1
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 4 + 2
+	(Battleship) is on Liverpool Street station
+	(Battleship) Paid 50 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 4 + 2
+	(Top Hat) is on Piccadilly
+	(Top Hat) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 1
+Battleship: 
+	(Battleship) First  roll: 5 + 1
+	(Battleship) is on Old Kent Road
+	(Battleship) Paid 2 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 1 + 3
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 1 + 4
+Battleship: 
+	(Battleship) First  roll: 4 + 1
+	(Battleship) is on The Angel Islington
+	(Battleship) Paid 6 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 3 + 5
+	(Top Hat) is on Old Kent Road
+	(Top Hat) Paid 2 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+Battleship: 
+	(Battleship) First  roll: 3 + 2
+	(Battleship) is on Pall Mall
+Top Hat: 
+	(Top Hat) First  roll: 1 + 1
+	(Top Hat) is on Whitechapel Road
+	(Top Hat) Second  roll: 2 + 1
+	(Top Hat) is on The Angel Islington
+Penguin: 
+	(Penguin) First  roll: 3 + 3
+	(Penguin) is on Bow Street
+	(Penguin) Second  roll: 3 + 5
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Vine Street
+	(Battleship) Paid 16 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 4 + 2
+	(Top Hat) is on Electric Company
+	(Top Hat) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 1 + 5
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 4 + 5
+	(Battleship) is on Water Works
+Top Hat: 
+	(Top Hat) First  roll: 5 + 6
+	(Top Hat) is on Fleet Street
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Chance
+Top Hat: 
+	(Top Hat) First  roll: 6 + 5
+	(Top Hat) is on Bond Street
+Penguin: 
+	(Penguin) First  roll: 6 + 6
+	(Penguin) is on Chance
+	(Penguin) Second  roll: 3 + 2
+	(Penguin) is on Coventry Street
+	(Penguin) Paid 22 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+	(Battleship) is on Whitechapel Road
+	(Battleship) Paid 4 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Go
+Penguin: 
+	(Penguin) First  roll: 6 + 5
+	(Penguin) is on Super Tax
+	(Penguin) Paid 100 to the Bank
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Jail
+Top Hat: 
+	(Top Hat) First  roll: 3 + 6
+	(Top Hat) is on Pentonville Road
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+	(Penguin) is on Kings Cross Station
+	(Penguin) Paid 50 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 2
+	(Battleship) is on Marlborough Street
+	(Battleship) Paid 14 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 5 + 6
+	(Top Hat) is on Free Parking
+Penguin: 
+	(Penguin) First  roll: 6 + 6
+	(Penguin) is on Community
+	(Penguin) Second  roll: 5 + 5
+	(Penguin) is on Coventry Street
+	(Penguin) Paid 22 to Battleship
+	(Penguin) Third  roll: 6 + 3
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Chance
+	(Battleship) Second  roll: 4 + 5
+	(Battleship) is on Regent Street
+Top Hat: 
+	(Top Hat) First  roll: 4 + 5
+	(Top Hat) is on Piccadilly
+	(Top Hat) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 6
+	(Penguin) is on Income Tax
+	(Penguin) Paid 200 to the Bank
+Battleship: 
+	(Battleship) First  roll: 2 + 4
+	(Battleship) is on Park Lane
+	(Battleship) Paid 350 to the Bank
+	(Battleship) bought Park Lane for 350(1117 left)
+Top Hat: 
+	(Top Hat) First  roll: 3 + 6
+	(Top Hat) is on Super Tax
+	(Top Hat) Paid 100 to the Bank
+Penguin: 
+	(Penguin) First  roll: 6 + 5
+	(Penguin) is on Marylebone Station
+	(Penguin) Paid 50 to Battleship
+Battleship: 
+	(Battleship) First  roll: 3 + 5
+	(Battleship) is on Kings Cross Station
+Top Hat: 
+	(Top Hat) First  roll: 1 + 6
+	(Top Hat) is on Kings Cross Station
+	(Top Hat) Paid 50 to Battleship
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on Strand
+	(Penguin) Paid 18 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+	(Battleship) is on Electric Company
+	(Battleship) Paid 28 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 1 + 4
+	(Top Hat) is on Jail
+Penguin: 
+	(Penguin) First  roll: 6 + 2
+	(Penguin) is on Piccadilly
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Bow Street
+	(Top Hat) Paid 14 to Penguin
+Penguin: 
+	(Penguin) First  roll: 1 + 4
+	(Penguin) is on Bond Street
+	(Penguin) Paid 28 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 1 + 3
+	(Battleship) is on Coventry Street
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+	(Top Hat) is on Free Parking
+Penguin: 
+	(Penguin) First  roll: 3 + 1
+	(Penguin) is on Super Tax
+	(Penguin) Paid 100 to the Bank
+Battleship: 
+	(Battleship) First  roll: 6 + 4
+	(Battleship) is on Park Lane
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Leicester Square
+	(Top Hat) Paid 22 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 3
+	(Penguin) is on Income Tax
+	(Penguin) Paid 200 to the Bank
+	(Penguin) Second  roll: 5 + 4
+	(Penguin) is on Whitehall
+Battleship: 
+	(Battleship) First  roll: 1 + 6
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 1 + 2
+	(Top Hat) is on Piccadilly
+	(Top Hat) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Vine Street
+	(Penguin) Paid 16 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+	(Battleship) is on Pentonville Road
+	(Battleship) Paid 6 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 4 + 5
+	(Top Hat) is on Super Tax
+	(Top Hat) Paid 100 to the Bank
+Penguin: 
+	(Penguin) First  roll: 3 + 4
+	(Penguin) is on Leicester Square
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Bow Street
+	(Battleship) Paid 14 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 1 + 2
+	(Top Hat) is on Old Kent Road
+	(Top Hat) Paid 2 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 6
+	(Penguin) is on Liverpool Street station
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+	(Battleship) is on Strand
+Top Hat: 
+	(Top Hat) First  roll: 6 + 1
+	(Top Hat) is on Euston Road
+	(Top Hat) Paid 6 to Penguin
+Penguin: 
+	(Penguin) First  roll: 5 + 6
+	(Penguin) is on The Angel Islington
+	(Penguin) Paid 6 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 1 + 2
+	(Battleship) is on Trafalgar Square
+Top Hat: 
+	(Top Hat) First  roll: 5 + 6
+	(Top Hat) is on Vine Street
+Penguin: 
+	(Penguin) First  roll: 5 + 4
+	(Penguin) is on Marylebone Station
+	(Penguin) Paid 50 to Battleship
+Battleship: 
+	(Battleship) First  roll: 4 + 1
+	(Battleship) is on Piccadilly
+	(Battleship) Paid 24 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+	(Top Hat) is on Fleet Street
+Penguin: 
+	(Penguin) First  roll: 6 + 3
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+	(Battleship) is on Chance
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+	(Top Hat) is on Regent Street
+	(Top Hat) Paid 26 to Battleship
+Penguin: 
+	(Penguin) First  roll: 4 + 1
+	(Penguin) is on Piccadilly
+Battleship: 
+	(Battleship) First  roll: 5 + 4
+	(Battleship) is on Kings Cross Station
+Top Hat: 
+	(Top Hat) First  roll: 4 + 1
+	(Top Hat) is on Chance
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+	(Battleship) is on Bow Street
+	(Battleship) Paid 14 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 3 + 3
+	(Top Hat) is on Community
+	(Top Hat) Second  roll: 5 + 5
+	(Top Hat) is on Electric Company
+	(Top Hat) Paid 40 to Penguin
+	(Top Hat) Third  roll: 3 + 4
+	(Top Hat) is on Vine Street
+Penguin: 
+	(Penguin) First  roll: 3 + 4
+	(Penguin) is on Whitechapel Road
+	(Penguin) Paid 4 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 6 + 6
+	(Battleship) is on Water Works
+	(Battleship) Second  roll: 6 + 1
+	(Battleship) is on Liverpool Street station
+	(Battleship) Paid 50 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 4 + 5
+	(Top Hat) is on Water Works
+	(Top Hat) Paid 36 to Battleship
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) is on Jail
+Battleship: 
+	(Battleship) First  roll: 4 + 5
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 4 + 3
+	(Top Hat) is on Liverpool Street station
+	(Top Hat) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 6
+	(Penguin) is on Marlborough Street
+	(Penguin) Paid 14 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Electric Company
+	(Battleship) Paid 32 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 3 + 2
+	(Top Hat) is on Go
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) is on Fenchurch Street Station
+Battleship: 
+	(Battleship) First  roll: 3 + 4
+	(Battleship) is on Vine Street
+	(Battleship) Paid 16 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 1 + 4
+	(Top Hat) is on Kings Cross Station
+	(Top Hat) Paid 50 to Battleship
+Penguin: 
+	(Penguin) First  roll: 3 + 1
+	(Penguin) is on Piccadilly
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+	(Battleship) is on Trafalgar Square
+Top Hat: 
+	(Top Hat) First  roll: 6 + 1
+	(Top Hat) is on Electric Company
+	(Top Hat) Paid 28 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 3
+	(Penguin) is on Liverpool Street station
+	(Penguin) Second  roll: 4 + 5
+	(Penguin) is on Income Tax
+	(Penguin) Paid 200 to the Bank
+Battleship: 
+	(Battleship) First  roll: 5 + 5
+	(Battleship) is on Bond Street
+	(Battleship) Paid 28 to Top Hat
+	(Battleship) Second  roll: 4 + 1
+	(Battleship) is on Mayfair
+	(Battleship) Paid 400 to the Bank
+	(Battleship) bought Mayfair for 400(1187 left)
+	(Battleship) Bought a house on Park Lane (part of set 7)
+	(Battleship) Paid 200 to the Bank
+	(Battleship) Bought a house on Mayfair (part of set 7)
+	(Battleship) Paid 200 to the Bank
+	(Battleship) Bought a house on Park Lane (part of set 7)
+	(Battleship) Paid 200 to the Bank
+	(Battleship) Bought a house on Mayfair (part of set 7)
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 6 + 6
+	(Top Hat) is on Trafalgar Square
+	(Top Hat) Paid 20 to Battleship
+	(Top Hat) Second  roll: 1 + 5
+	(Top Hat) is on Go To Jail
+	(Top Hat) Went to Jail
+Penguin: 
+	(Penguin) First  roll: 6 + 3
+	(Penguin) is on Whitehall
+Battleship: 
+	(Battleship) First  roll: 2 + 3
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+	(Battleship) Bought a house on Park Lane (part of set 7)
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 4 + 5
+Penguin: 
+	(Penguin) First  roll: 4 + 4
+	(Penguin) is on Strand
+	(Penguin) Paid 18 to Battleship
+	(Penguin) Second  roll: 6 + 3
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 4 + 5
+	(Battleship) is on Whitehall
+	(Battleship) Paid 10 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 2 + 4
+Penguin: 
+	(Penguin) First  roll: 1 + 5
+Battleship: 
+	(Battleship) First  roll: 3 + 6
+	(Battleship) is on Chance
+Top Hat: 
+	(Top Hat) First  roll: 4 + 4
+	(Top Hat) is on Marlborough Street
+	(Top Hat) Second  roll: 3 + 2
+	(Top Hat) is on Fleet Street
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Leicester Square
+	(Battleship) Paid 22 to Penguin
+	(Battleship) Second  roll: 1 + 1
+	(Battleship) is on Water Works
+	(Battleship) Third  roll: 4 + 4
+	(Battleship) is on Chance
+	(Battleship) Rolled three doubles!
+	(Battleship) Went to Jail
+Top Hat: 
+	(Top Hat) First  roll: 3 + 4
+	(Top Hat) is on Go To Jail
+	(Top Hat) Went to Jail
+Penguin: 
+	(Penguin) First  roll: 1 + 4
+Battleship: 
+	(Battleship) First  roll: 4 + 3
+Top Hat: 
+	(Top Hat) First  roll: 3 + 2
+Penguin: 
+	(Penguin) First  roll: 6 + 5
+	(Penguin) Paid 50 to the Bank
+	(Penguin) is on Strand
+	(Penguin) Paid 18 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+Penguin: 
+	(Penguin) First  roll: 6 + 2
+	(Penguin) is on Piccadilly
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+	(Penguin) is on Bond Street
+	(Penguin) Paid 28 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 6 + 2
+	(Battleship) Paid 50 to the Bank
+	(Battleship) is on Marlborough Street
+	(Battleship) Paid 14 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 5 + 5
+	(Top Hat) is on Free Parking
+	(Top Hat) Second  roll: 2 + 1
+	(Top Hat) is on Fleet Street
+Penguin: 
+	(Penguin) First  roll: 3 + 1
+	(Penguin) is on Super Tax
+	(Penguin) Paid 100 to the Bank
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Chance
+	(Battleship) Second  roll: 6 + 3
+	(Battleship) is on Regent Street
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Piccadilly
+	(Top Hat) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) is on Kings Cross Station
+	(Penguin) Paid 50 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Mayfair
+Top Hat: 
+	(Top Hat) First  roll: 5 + 2
+	(Top Hat) is on Chance
+Penguin: 
+	(Penguin) First  roll: 4 + 1
+	(Penguin) is on Jail
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Whitechapel Road
+	(Battleship) Paid 4 to Top Hat
+	(Battleship) Second  roll: 5 + 6
+	(Battleship) is on Northumberland Avenue
+Top Hat: 
+	(Top Hat) First  roll: 1 + 6
+	(Top Hat) is on Whitechapel Road
+Penguin: 
+	(Penguin) First  roll: 1 + 3
+	(Penguin) is on Northumberland Avenue
+	(Penguin) Paid 12 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 4
+	(Battleship) is on Free Parking
+	(Battleship) Bought a house on Mayfair (part of set 7)
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 1 + 4
+	(Top Hat) is on Euston Road
+	(Top Hat) Paid 6 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 6
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 4 + 4
+	(Battleship) is on Water Works
+	(Battleship) Second  roll: 3 + 2
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 6 + 6
+	(Top Hat) is on Free Parking
+	(Top Hat) Second  roll: 3 + 5
+	(Top Hat) is on Water Works
+	(Top Hat) Paid 32 to Battleship
+Penguin: 
+	(Penguin) First  roll: 1 + 6
+	(Penguin) is on Piccadilly
+Battleship: 
+	(Battleship) First  roll: 3 + 4
+	(Battleship) is on Go
+	(Battleship) Bought a house on Park Lane (part of set 7)
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 3 + 2
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 1 + 4
+	(Penguin) is on Bond Street
+	(Penguin) Paid 28 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 1 + 2
+	(Battleship) is on Whitechapel Road
+	(Battleship) Paid 4 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 6 + 5
+	(Top Hat) is on Income Tax
+	(Top Hat) Paid 200 to the Bank
+Penguin: 
+	(Penguin) First  roll: 4 + 2
+	(Penguin) is on Go
+Battleship: 
+	(Battleship) First  roll: 3 + 6
+	(Battleship) is on Electric Company
+	(Battleship) Paid 36 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 1 + 1
+	(Top Hat) is on The Angel Islington
+	(Top Hat) Second  roll: 6 + 2
+	(Top Hat) is on Northumberland Avenue
+	(Top Hat) Paid 12 to Battleship
+Penguin: 
+	(Penguin) First  roll: 6 + 5
+	(Penguin) is on Pall Mall
+	(Penguin) Paid 10 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 2
+	(Battleship) is on Vine Street
+	(Battleship) Paid 16 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 4 + 5
+	(Top Hat) is on Fleet Street
+Penguin: 
+	(Penguin) First  roll: 1 + 1
+	(Penguin) is on Whitehall
+	(Penguin) Second  roll: 6 + 2
+	(Penguin) is on Strand
+	(Penguin) Paid 18 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+	(Battleship) Second  roll: 1 + 4
+	(Battleship) is on Water Works
+Top Hat: 
+	(Top Hat) First  roll: 3 + 4
+	(Top Hat) is on Go To Jail
+	(Top Hat) Went to Jail
+Penguin: 
+	(Penguin) First  roll: 4 + 2
+	(Penguin) is on Coventry Street
+	(Penguin) Paid 22 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 4
+	(Battleship) is on Bond Street
+	(Battleship) Paid 28 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 4 + 2
+Penguin: 
+	(Penguin) First  roll: 3 + 6
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 3 + 1
+	(Battleship) is on Super Tax
+	(Battleship) Paid 100 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 4 + 2
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+	(Penguin) is on Old Kent Road
+Battleship: 
+	(Battleship) First  roll: 4 + 2
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 1 + 6
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 1 + 6
+	(Battleship) is on Pall Mall
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) Paid 50 to the Bank
+	(Top Hat) is on Bow Street
+	(Top Hat) Paid 14 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+	(Penguin) is on Electric Company
+Battleship: 
+	(Battleship) First  roll: 4 + 6
+	(Battleship) is on Strand
+Top Hat: 
+	(Top Hat) First  roll: 1 + 1
+	(Top Hat) is on Marlborough Street
+	(Top Hat) Second  roll: 2 + 2
+	(Top Hat) is on Chance
+	(Top Hat) Third  roll: 2 + 5
+	(Top Hat) is on Piccadilly
+	(Top Hat) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 1
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 4 + 1
+	(Battleship) is on Leicester Square
+	(Battleship) Paid 22 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 2 + 4
+	(Top Hat) is on Liverpool Street station
+	(Top Hat) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 1 + 3
+	(Battleship) is on Go To Jail
+	(Battleship) Went to Jail
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Old Kent Road
+	(Top Hat) Paid 2 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 3
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 5 + 3
+Top Hat: 
+	(Top Hat) First  roll: 6 + 6
+	(Top Hat) is on Whitehall
+	(Top Hat) Paid 10 to Penguin
+	(Top Hat) Second  roll: 4 + 2
+	(Top Hat) is on Vine Street
+Penguin: 
+	(Penguin) First  roll: 3 + 1
+Battleship: 
+	(Battleship) First  roll: 1 + 2
+Top Hat: 
+	(Top Hat) First  roll: 4 + 2
+	(Top Hat) is on Fenchurch Street Station
+	(Top Hat) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 1 + 5
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+Top Hat: 
+	(Top Hat) First  roll: 3 + 3
+	(Top Hat) is on Regent Street
+	(Top Hat) Paid 26 to Battleship
+	(Top Hat) Second  roll: 4 + 3
+	(Top Hat) is on Super Tax
+	(Top Hat) Paid 100 to the Bank
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+Battleship: 
+	(Battleship) First  roll: 3 + 4
+	(Battleship) Paid 50 to the Bank
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+	(Top Hat) is on The Angel Islington
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+	(Penguin) Paid 50 to the Bank
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 1 + 6
+	(Battleship) is on Trafalgar Square
+Top Hat: 
+	(Top Hat) First  roll: 2 + 3
+	(Top Hat) is on Pall Mall
+	(Top Hat) Paid 10 to Battleship
+Penguin: 
+	(Penguin) First  roll: 3 + 4
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 4 + 1
+	(Battleship) is on Piccadilly
+	(Battleship) Paid 24 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 4 + 3
+	(Top Hat) is on Marlborough Street
+Penguin: 
+	(Penguin) First  roll: 1 + 3
+	(Penguin) is on Water Works
+	(Penguin) Paid 16 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 6
+	(Battleship) is on Old Kent Road
+	(Battleship) Paid 2 to Penguin
+	(Battleship) Second  roll: 1 + 2
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Trafalgar Square
+	(Top Hat) Paid 20 to Battleship
+Penguin: 
+	(Penguin) First  roll: 5 + 2
+	(Penguin) is on Liverpool Street station
+Battleship: 
+	(Battleship) First  roll: 3 + 3
+	(Battleship) is on Jail
+	(Battleship) Second  roll: 4 + 5
+	(Battleship) is on Vine Street
+	(Battleship) Paid 16 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 5 + 1
+	(Top Hat) is on Go To Jail
+	(Top Hat) Went to Jail
+Penguin: 
+	(Penguin) First  roll: 5 + 5
+	(Penguin) is on Kings Cross Station
+	(Penguin) Paid 50 to Battleship
+	(Penguin) Second  roll: 1 + 6
+	(Penguin) is on Electric Company
+Battleship: 
+	(Battleship) First  roll: 4 + 5
+	(Battleship) is on Water Works
+Top Hat: 
+	(Top Hat) First  roll: 2 + 4
+Penguin: 
+	(Penguin) First  roll: 1 + 4
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 3 + 2
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 5 + 4
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Fleet Street
+	(Penguin) Paid 18 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 2 + 3
+	(Battleship) is on Super Tax
+	(Battleship) Paid 100 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 5 + 3
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 5 + 1
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 5 + 4
+	(Top Hat) Paid 50 to the Bank
+	(Top Hat) is on Vine Street
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+	(Battleship) is on Pall Mall
+Top Hat: 
+	(Top Hat) First  roll: 3 + 4
+	(Top Hat) is on Leicester Square
+	(Top Hat) Paid 22 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 3
+Battleship: 
+	(Battleship) First  roll: 4 + 2
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 4 + 1
+	(Top Hat) is on Regent Street
+	(Top Hat) Paid 26 to Battleship
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+	(Battleship) is on Water Works
+Top Hat: 
+	(Top Hat) First  roll: 6 + 4
+	(Top Hat) is on Old Kent Road
+	(Top Hat) Paid 2 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 2
+	(Penguin) is on Northumberland Avenue
+	(Penguin) Paid 12 to Battleship
+	(Penguin) Second  roll: 1 + 1
+	(Penguin) is on Bow Street
+	(Penguin) Third  roll: 2 + 4
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 3 + 3
+	(Battleship) is on Bond Street
+	(Battleship) Paid 28 to Top Hat
+	(Battleship) Second  roll: 2 + 6
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 3 + 3
+	(Top Hat) is on Chance
+	(Top Hat) Second  roll: 4 + 2
+	(Top Hat) is on Whitehall
+	(Top Hat) Paid 10 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 1
+	(Penguin) is on Fenchurch Street Station
+Battleship: 
+	(Battleship) First  roll: 3 + 5
+	(Battleship) is on Jail
+Top Hat: 
+	(Top Hat) First  roll: 4 + 4
+	(Top Hat) is on Strand
+	(Top Hat) Paid 18 to Battleship
+	(Top Hat) Second  roll: 4 + 4
+	(Top Hat) is on Piccadilly
+	(Top Hat) Paid 24 to Penguin
+	(Top Hat) Third  roll: 6 + 3
+	(Top Hat) is on Super Tax
+	(Top Hat) Paid 100 to the Bank
+Penguin: 
+	(Penguin) First  roll: 6 + 6
+	(Penguin) is on Park Lane
+	(Penguin) Paid 1300 to Battleship
+	(Penguin) Second  roll: 1 + 2
+	(Penguin) is on Go
+Battleship: 
+	(Battleship) First  roll: 4 + 4
+	(Battleship) is on Marlborough Street
+	(Battleship) Paid 14 to Top Hat
+	(Battleship) Bought a house on Mayfair (part of set 7)
+	(Battleship) Paid 200 to the Bank
+	(Battleship) Bought a house on Park Lane (part of set 7)
+	(Battleship) Paid 200 to the Bank
+	(Battleship) Bought a house on Mayfair (part of set 7)
+	(Battleship) Paid 200 to the Bank
+	(Battleship) Second  roll: 6 + 3
+	(Battleship) is on Coventry Street
+Top Hat: 
+	(Top Hat) First  roll: 6 + 4
+	(Top Hat) is on Euston Road
+	(Top Hat) Paid 6 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 6 + 2
+	(Battleship) is on Liverpool Street station
+	(Battleship) Paid 50 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 4 + 1
+	(Top Hat) is on Whitehall
+	(Top Hat) Paid 10 to Penguin
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+	(Penguin) is on Northumberland Avenue
+	(Penguin) Paid 12 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 5
+	(Battleship) is on The Angel Islington
+	(Battleship) Paid 6 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 5 + 1
+	(Top Hat) is on Vine Street
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+	(Penguin) is on Strand
+	(Penguin) Paid 18 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 4
+	(Battleship) is on Electric Company
+	(Battleship) Paid 24 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 6 + 3
+	(Top Hat) is on Water Works
+	(Top Hat) Paid 36 to Battleship
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+	(Penguin) is on Leicester Square
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 6 + 1
+	(Top Hat) is on Liverpool Street station
+	(Top Hat) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Oxford Street
+	(Penguin) Paid 26 to Battleship
+Battleship: 
+	(Battleship) First  roll: 4 + 3
+	(Battleship) is on Trafalgar Square
+Top Hat: 
+	(Top Hat) First  roll: 1 + 6
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on Super Tax
+	(Penguin) Paid 100 to the Bank
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Go To Jail
+	(Battleship) Went to Jail
+Top Hat: 
+	(Top Hat) First  roll: 3 + 5
+	(Top Hat) is on Jail
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+	(Penguin) is on Whitechapel Road
+	(Penguin) Paid 4 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 6 + 6
+	(Battleship) is on Chance
+	(Battleship) Second  roll: 5 + 2
+	(Battleship) is on Piccadilly
+	(Battleship) Paid 24 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 3 + 2
+	(Top Hat) is on Marylebone Station
+	(Top Hat) Paid 50 to Battleship
+Penguin: 
+	(Penguin) First  roll: 4 + 5
+	(Penguin) is on Electric Company
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+	(Battleship) is on Chance
+Top Hat: 
+	(Top Hat) First  roll: 5 + 4
+	(Top Hat) is on Trafalgar Square
+	(Top Hat) Paid 20 to Battleship
+Penguin: 
+	(Penguin) First  roll: 4 + 4
+	(Penguin) is on Free Parking
+	(Penguin) Second  roll: 1 + 3
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 4 + 1
+	(Battleship) is on Old Kent Road
+	(Battleship) Paid 2 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+	(Top Hat) is on Water Works
+	(Top Hat) Paid 16 to Battleship
+Penguin: 
+	(Penguin) First  roll: 4 + 2
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 5 + 3
+	(Battleship) is on Pentonville Road
+	(Battleship) Paid 6 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 2 + 1
+	(Top Hat) is on Regent Street
+	(Top Hat) Paid 26 to Battleship
+Penguin: 
+	(Penguin) First  roll: 6 + 2
+Battleship: 
+	(Battleship) First  roll: 3 + 1
+	(Battleship) is on Whitehall
+	(Battleship) Paid 10 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 3 + 4
+	(Top Hat) is on Super Tax
+	(Top Hat) Paid 100 to the Bank
+Penguin: 
+	(Penguin) First  roll: 2 + 1
+Battleship: 
+	(Battleship) First  roll: 1 + 3
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 1 + 2
+	(Top Hat) is on Old Kent Road
+	(Top Hat) Paid 2 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+Battleship: 
+	(Battleship) First  roll: 3 + 1
+	(Battleship) is on Strand
+Top Hat: 
+	(Top Hat) First  roll: 1 + 2
+	(Top Hat) is on Income Tax
+	(Top Hat) Paid 200 to the Bank
+Penguin: 
+	(Penguin) First  roll: 2 + 1
+	(Penguin) Paid 50 to the Bank
+	(Penguin) is on Whitehall
+Battleship: 
+	(Battleship) First  roll: 1 + 3
+	(Battleship) is on Fenchurch Street Station
+	(Battleship) Paid 50 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 4 + 6
+	(Top Hat) is on Northumberland Avenue
+	(Top Hat) Paid 12 to Battleship
+Penguin: 
+	(Penguin) First  roll: 2 + 2
+	(Penguin) is on Community
+	(Penguin) Second  roll: 4 + 3
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 4 + 3
+	(Battleship) is on Oxford Street
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+	(Top Hat) is on Marlborough Street
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 5 + 2
+	(Battleship) is on Mayfair
+Top Hat: 
+	(Top Hat) First  roll: 5 + 5
+	(Top Hat) is on Water Works
+	(Top Hat) Paid 40 to Battleship
+	(Top Hat) Second  roll: 6 + 3
+	(Top Hat) is on Park Lane
+	(Top Hat) Paid 1500 to Battleship
+Penguin: 
+	(Penguin) First  roll: 2 + 3
+Battleship: 
+	(Battleship) First  roll: 1 + 1
+	(Battleship) is on Old Kent Road
+	(Battleship) Paid 2 to Penguin
+	(Battleship) Second  roll: 6 + 3
+	(Battleship) is on Jail
+Top Hat: 
+	(Top Hat) First  roll: 3 + 4
+	(Top Hat) is on Income Tax
+	(Top Hat) Paid 200 to the Bank
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+Battleship: 
+	(Battleship) First  roll: 5 + 4
+	(Battleship) is on Vine Street
+	(Battleship) Paid 16 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 2 + 4
+	(Top Hat) is on Jail
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+Battleship: 
+	(Battleship) First  roll: 4 + 4
+	(Battleship) is on Coventry Street
+	(Battleship) Second  roll: 3 + 1
+	(Battleship) is on Regent Street
+Top Hat: 
+	(Top Hat) First  roll: 4 + 6
+	(Top Hat) is on Free Parking
+Penguin: 
+	(Penguin) First  roll: 3 + 5
+	(Penguin) Paid 50 to the Bank
+	(Penguin) is on Marlborough Street
+	(Penguin) Paid 14 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 6 + 3
+	(Battleship) is on Go
+Top Hat: 
+	(Top Hat) First  roll: 3 + 6
+	(Top Hat) is on Piccadilly
+	(Top Hat) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 1 + 6
+	(Penguin) is on Fenchurch Street Station
+Battleship: 
+	(Battleship) First  roll: 4 + 5
+	(Battleship) is on Pentonville Road
+	(Battleship) Paid 6 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 3 + 3
+	(Top Hat) is on Liverpool Street station
+	(Top Hat) Paid 50 to Penguin
+	(Top Hat) Second  roll: 1 + 4
+	(Top Hat) is on Go
+Penguin: 
+	(Penguin) First  roll: 5 + 4
+	(Penguin) is on Bond Street
+	(Penguin) Paid 28 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 1 + 6
+	(Top Hat) is on Chance
+Penguin: 
+	(Penguin) First  roll: 5 + 6
+	(Penguin) is on Kings Cross Station
+	(Penguin) Paid 50 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 3
+	(Battleship) is on Fenchurch Street Station
+	(Battleship) Paid 50 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+	(Top Hat) is on Pall Mall
+	(Top Hat) Paid 10 to Battleship
+Penguin: 
+	(Penguin) First  roll: 6 + 4
+	(Penguin) is on Marylebone Station
+	(Penguin) Paid 50 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Oxford Street
+Top Hat: 
+	(Top Hat) First  roll: 3 + 1
+	(Top Hat) is on Marylebone Station
+	(Top Hat) Paid 50 to Battleship
+Penguin: 
+	(Penguin) First  roll: 3 + 4
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 3 + 4
+	(Battleship) is on Mayfair
+Top Hat: 
+	(Top Hat) First  roll: 6 + 3
+	(Top Hat) is on Trafalgar Square
+	(Top Hat) Paid 20 to Battleship
+Penguin: 
+	(Penguin) First  roll: 5 + 4
+	(Penguin) is on Regent Street
+	(Penguin) Paid 26 to Battleship
+Battleship: 
+	(Battleship) First  roll: 4 + 2
+	(Battleship) is on Kings Cross Station
+Top Hat: 
+	(Top Hat) First  roll: 4 + 3
+	(Top Hat) is on Regent Street
+	(Top Hat) Paid 26 to Battleship
+Penguin: 
+	(Penguin) First  roll: 6 + 4
+	(Penguin) is on Old Kent Road
+Battleship: 
+	(Battleship) First  roll: 4 + 2
+	(Battleship) is on Pall Mall
+Top Hat: 
+	(Top Hat) First  roll: 6 + 5
+	(Top Hat) is on Community
+Penguin: 
+	(Penguin) First  roll: 3 + 4
+	(Penguin) is on Euston Road
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Community
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Euston Road
+	(Top Hat) Paid 6 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 2
+	(Penguin) is on Northumberland Avenue
+	(Penguin) Paid 12 to Battleship
+Battleship: 
+	(Battleship) First  roll: 3 + 3
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+	(Battleship) Second  roll: 6 + 5
+	(Battleship) is on Bond Street
+	(Battleship) Paid 28 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 3 + 2
+	(Top Hat) is on Whitehall
+	(Top Hat) Paid 10 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 5
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 4 + 5
+	(Battleship) is on Whitechapel Road
+	(Battleship) Paid 4 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 3 + 2
+	(Top Hat) is on Marlborough Street
+Penguin: 
+	(Penguin) First  roll: 1 + 3
+	(Penguin) is on Leicester Square
+Battleship: 
+	(Battleship) First  roll: 1 + 6
+	(Battleship) is on Jail
+Top Hat: 
+	(Top Hat) First  roll: 6 + 1
+	(Top Hat) is on Fenchurch Street Station
+	(Top Hat) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 4
+	(Penguin) is on Bond Street
+	(Penguin) Paid 28 to Top Hat
+	(Penguin) Second  roll: 6 + 3
+	(Penguin) is on Whitechapel Road
+	(Penguin) Paid 4 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 3 + 2
+	(Battleship) is on Marylebone Station
+Top Hat: 
+	(Top Hat) First  roll: 2 + 5
+	(Top Hat) is on Oxford Street
+	(Top Hat) Paid 26 to Battleship
+Penguin: 
+	(Penguin) First  roll: 1 + 3
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 3 + 5
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+	(Top Hat) is on Go
+Penguin: 
+	(Penguin) First  roll: 1 + 3
+	(Penguin) is on Pall Mall
+	(Penguin) Paid 10 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+	(Battleship) is on Bond Street
+	(Battleship) Paid 28 to Top Hat
+Top Hat: 
+	(Top Hat) First  roll: 2 + 6
+	(Top Hat) is on Euston Road
+	(Top Hat) Paid 6 to Penguin
+Penguin: 
+	(Penguin) First  roll: 5 + 6
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 5 + 1
+	(Battleship) is on Go
+Top Hat: 
+	(Top Hat) First  roll: 1 + 5
+	(Top Hat) is on Northumberland Avenue
+	(Top Hat) Paid 12 to Battleship
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Water Works
+	(Penguin) Paid 24 to Battleship
+Battleship: 
+	(Battleship) First  roll: 1 + 3
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Top Hat: 
+	(Top Hat) First  roll: 2 + 2
+	(Top Hat) is on Marlborough Street
+	(Top Hat) Second  roll: 5 + 5
+	(Top Hat) is on Water Works
+	(Top Hat) Paid 40 to Battleship
+	(Top Hat) Third  roll: 1 + 3
+	(Top Hat) is on Oxford Street
+	(Top Hat) Paid 26 to Battleship
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on Bond Street
+	(Penguin) Paid 28 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 3 + 5
+	(Battleship) is on Electric Company
+	(Battleship) Paid 32 to Penguin
+Top Hat: 
+	(Top Hat) First  roll: 2 + 5
+	(Top Hat) is on Mayfair
+	(Top Hat) Paid 2000 to Battleship
+Top Hat is Bankrupt!
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+	(Battleship) is on Community
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+	(Penguin) is on Old Kent Road
+Battleship: 
+	(Battleship) First  roll: 2 + 4
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+Penguin: 
+	(Penguin) First  roll: 2 + 6
+	(Penguin) is on Pentonville Road
+	(Penguin) Paid 6 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Regent Street
+Penguin: 
+	(Penguin) First  roll: 4 + 5
+	(Penguin) is on Marlborough Street
+	(Penguin) Paid 14 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 4 + 5
+	(Battleship) is on Go
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+	(Penguin) is on Fenchurch Street Station
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Euston Road
+	(Battleship) Paid 6 to Penguin
+Penguin: 
+	(Penguin) First  roll: 1 + 6
+	(Penguin) is on Oxford Street
+	(Penguin) Paid 26 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 3
+	(Battleship) is on Bow Street
+	(Battleship) Paid 14 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 2
+	(Penguin) is on Super Tax
+	(Penguin) Paid 100 to the Bank
+Battleship: 
+	(Battleship) First  roll: 2 + 4
+	(Battleship) is on Chance
+Penguin: 
+	(Penguin) First  roll: 1 + 6
+	(Penguin) is on Kings Cross Station
+	(Penguin) Paid 50 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Piccadilly
+	(Battleship) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 5 + 2
+	(Penguin) is on Electric Company
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Community
+	(Battleship) Second  roll: 3 + 1
+	(Battleship) is on Park Lane
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Marlborough Street
+	(Penguin) Paid 14 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 6 + 2
+	(Battleship) is on Kings Cross Station
+Penguin: 
+	(Penguin) First  roll: 4 + 1
+	(Penguin) is on Fleet Street
+	(Penguin) Paid 18 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 4 + 3
+	(Battleship) is on Electric Company
+	(Battleship) Paid 28 to Penguin
+Penguin: 
+	(Penguin) First  roll: 6 + 5
+	(Penguin) is on Bond Street
+	(Penguin) Paid 28 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Marlborough Street
+	(Battleship) Paid 14 to Top Hat
+Penguin: 
+	(Penguin) First  roll: 4 + 2
+	(Penguin) is on Go
+Battleship: 
+	(Battleship) First  roll: 5 + 5
+	(Battleship) is on Water Works
+	(Battleship) Second  roll: 3 + 5
+	(Battleship) is on Chance
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on The Angel Islington
+	(Penguin) Paid 6 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Income Tax
+	(Battleship) Paid 200 to the Bank
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+	(Penguin) is on Whitehall
+Battleship: 
+	(Battleship) First  roll: 3 + 4
+	(Battleship) is on Pall Mall
+Penguin: 
+	(Penguin) First  roll: 5 + 1
+	(Penguin) is on Vine Street
+	(Penguin) Paid 16 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 3 + 1
+	(Battleship) is on Marylebone Station
+Penguin: 
+	(Penguin) First  roll: 2 + 3
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 4 + 3
+	(Battleship) is on Chance
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+	(Penguin) is on Regent Street
+	(Penguin) Paid 26 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 5
+	(Battleship) is on Community
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Park Lane
+	(Penguin) Paid 1500 to Battleship
+Battleship: 
+	(Battleship) First  roll: 3 + 4
+	(Battleship) is on Go
+Penguin: 
+	(Penguin) First  roll: 3 + 3
+	(Penguin) is on Whitechapel Road
+	(Penguin) Paid 4 to Top Hat
+	(Penguin) Second  roll: 6 + 5
+	(Penguin) is on Northumberland Avenue
+	(Penguin) Paid 12 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 4
+	(Battleship) is on Pentonville Road
+	(Battleship) Paid 6 to Top Hat
+Penguin: 
+	(Penguin) First  roll: 5 + 3
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 6 + 4
+	(Battleship) is on Vine Street
+	(Battleship) Paid 16 to Top Hat
+Penguin: 
+	(Penguin) First  roll: 2 + 3
+	(Penguin) is on Coventry Street
+	(Penguin) Paid 22 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+	(Battleship) is on Go To Jail
+	(Battleship) Went to Jail
+Penguin: 
+	(Penguin) First  roll: 1 + 2
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 6 + 4
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+Battleship: 
+	(Battleship) First  roll: 1 + 1
+	(Battleship) is on Electric Company
+	(Battleship) Paid 8 to Penguin
+	(Battleship) Second  roll: 4 + 4
+	(Battleship) is on Free Parking
+	(Battleship) Third  roll: 4 + 2
+	(Battleship) is on Leicester Square
+	(Battleship) Paid 22 to Penguin
+Penguin: 
+	(Penguin) First  roll: 5 + 6
+Battleship: 
+	(Battleship) First  roll: 2 + 2
+	(Battleship) is on Go To Jail
+	(Battleship) Went to Jail
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+Battleship: 
+	(Battleship) First  roll: 5 + 1
+Penguin: 
+	(Penguin) First  roll: 6 + 6
+	(Penguin) is on Chance
+	(Penguin) Second  roll: 2 + 4
+	(Penguin) is on Water Works
+	(Penguin) Paid 24 to Battleship
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+Penguin: 
+	(Penguin) First  roll: 5 + 3
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 5 + 4
+Penguin: 
+	(Penguin) First  roll: 6 + 2
+	(Penguin) is on Income Tax
+	(Penguin) Paid 200 to the Bank
+Battleship: 
+	(Battleship) First  roll: 4 + 3
+	(Battleship) Paid 50 to the Bank
+	(Battleship) is on Community
+Penguin: 
+	(Penguin) First  roll: 5 + 2
+	(Penguin) is on Pall Mall
+	(Penguin) Paid 10 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 1
+	(Battleship) is on Fleet Street
+	(Battleship) Paid 18 to Top Hat
+Penguin: 
+	(Penguin) First  roll: 6 + 5
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+	(Battleship) is on Water Works
+Penguin: 
+	(Penguin) First  roll: 1 + 1
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+	(Penguin) Second  roll: 1 + 1
+	(Penguin) is on Leicester Square
+	(Penguin) Third  roll: 3 + 2
+	(Penguin) is on Regent Street
+	(Penguin) Paid 26 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 5
+	(Battleship) is on Liverpool Street station
+	(Battleship) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 6
+	(Penguin) is on Old Kent Road
+Battleship: 
+	(Battleship) First  roll: 4 + 4
+	(Battleship) is on Whitechapel Road
+	(Battleship) Paid 4 to Top Hat
+	(Battleship) Second  roll: 6 + 4
+	(Battleship) is on Whitehall
+	(Battleship) Paid 10 to Penguin
+Penguin: 
+	(Penguin) First  roll: 5 + 6
+	(Penguin) is on Electric Company
+Battleship: 
+	(Battleship) First  roll: 6 + 6
+	(Battleship) is on Fenchurch Street Station
+	(Battleship) Paid 50 to Penguin
+	(Battleship) Second  roll: 4 + 3
+	(Battleship) is on Oxford Street
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Marlborough Street
+	(Penguin) Paid 14 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 4 + 4
+	(Battleship) is on Go
+	(Battleship) Second  roll: 4 + 5
+	(Battleship) is on Pentonville Road
+	(Battleship) Paid 6 to Top Hat
+Penguin: 
+	(Penguin) First  roll: 4 + 3
+	(Penguin) is on Fenchurch Street Station
+Battleship: 
+	(Battleship) First  roll: 1 + 2
+	(Battleship) is on Electric Company
+	(Battleship) Paid 12 to Penguin
+Penguin: 
+	(Penguin) First  roll: 3 + 2
+	(Penguin) is on Go To Jail
+	(Penguin) Went to Jail
+Battleship: 
+	(Battleship) First  roll: 6 + 3
+	(Battleship) is on Strand
+Penguin: 
+	(Penguin) First  roll: 1 + 3
+Battleship: 
+	(Battleship) First  roll: 3 + 5
+	(Battleship) is on Piccadilly
+	(Battleship) Paid 24 to Penguin
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+Battleship: 
+	(Battleship) First  roll: 6 + 5
+	(Battleship) is on Go
+Penguin: 
+	(Penguin) First  roll: 6 + 3
+Battleship: 
+	(Battleship) First  roll: 6 + 4
+	(Battleship) is on Jail
+Penguin: 
+	(Penguin) First  roll: 6 + 1
+	(Penguin) Paid 50 to the Bank
+	(Penguin) is on Community
+Battleship: 
+	(Battleship) First  roll: 1 + 1
+	(Battleship) is on Electric Company
+	(Battleship) Paid 8 to Penguin
+	(Battleship) Second  roll: 3 + 3
+	(Battleship) is on Marlborough Street
+	(Battleship) Paid 14 to Top Hat
+	(Battleship) Third  roll: 5 + 4
+	(Battleship) is on Coventry Street
+Penguin: 
+	(Penguin) First  roll: 4 + 6
+	(Penguin) is on Coventry Street
+	(Penguin) Paid 22 to Battleship
+Battleship: 
+	(Battleship) First  roll: 2 + 6
+	(Battleship) is on Liverpool Street station
+	(Battleship) Paid 50 to Penguin
+Penguin: 
+	(Penguin) First  roll: 1 + 6
+	(Penguin) is on Bond Street
+	(Penguin) Paid 28 to Top Hat
+Battleship: 
+	(Battleship) First  roll: 6 + 2
+	(Battleship) is on Whitechapel Road
+	(Battleship) Paid 4 to Top Hat
+Penguin: 
+	(Penguin) First  roll: 1 + 3
+	(Penguin) is on Super Tax
+	(Penguin) Paid 100 to the Bank
+Battleship: 
+	(Battleship) First  roll: 1 + 6
+	(Battleship) is on Jail
+Penguin: 
+	(Penguin) First  roll: 2 + 2
+	(Penguin) is on Community
+	(Penguin) Second  roll: 3 + 5
+	(Penguin) is on Jail
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+	(Battleship) is on Strand
+Penguin: 
+	(Penguin) First  roll: 5 + 6
+	(Penguin) is on Strand
+	(Penguin) Paid 18 to Battleship
+Battleship: 
+	(Battleship) First  roll: 6 + 6
+	(Battleship) is on Community
+	(Battleship) Second  roll: 5 + 2
+	(Battleship) is on Go
+Penguin: 
+	(Penguin) First  roll: 2 + 4
+	(Penguin) is on Coventry Street
+	(Penguin) Paid 22 to Battleship
+Battleship: 
+	(Battleship) First  roll: 4 + 6
+	(Battleship) is on Jail
+Penguin: 
+	(Penguin) First  roll: 6 + 2
+	(Penguin) is on Liverpool Street station
+Battleship: 
+	(Battleship) First  roll: 6 + 1
+	(Battleship) is on Community
+Penguin: 
+	(Penguin) First  roll: 2 + 1
+	(Penguin) is on Super Tax
+	(Penguin) Paid 100 to the Bank
+Battleship: 
+	(Battleship) First  roll: 3 + 6
+	(Battleship) is on Leicester Square
+	(Battleship) Paid 22 to Penguin
+Penguin: 
+	(Penguin) First  roll: 4 + 5
+	(Penguin) is on Chance
+Battleship: 
+	(Battleship) First  roll: 1 + 5
+	(Battleship) is on Oxford Street
+Penguin: 
+	(Penguin) First  roll: 3 + 6
+	(Penguin) is on Bow Street
+Battleship: 
+	(Battleship) First  roll: 3 + 2
+	(Battleship) is on Park Lane
+Penguin: 
+	(Penguin) First  roll: 6 + 2
+	(Penguin) is on Trafalgar Square
+	(Penguin) Paid 20 to Battleship
+Battleship: 
+	(Battleship) First  roll: 5 + 6
+	(Battleship) is on Euston Road
+	(Battleship) Paid 6 to Penguin
+Penguin: 
+	(Penguin) First  roll: 2 + 5
+	(Penguin) is on Regent Street
+	(Penguin) Paid 26 to Battleship
+Battleship: 
+	(Battleship) First  roll: 1 + 4
+	(Battleship) is on Whitehall
+	(Battleship) Paid 10 to Penguin
+Penguin: 
+	(Penguin) First  roll: 5 + 3
+	(Penguin) is on Mayfair
+	(Penguin) Paid 2000 to Battleship
+Penguin is Bankrupt!
+Battleship won in 221 turns
