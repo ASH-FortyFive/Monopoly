@@ -13,6 +13,7 @@ import os.path
 import operator
 import random
 
+#OtherScripts
 import MonopolySimInit 
 from MonopolySimInit import Space
 
@@ -48,6 +49,14 @@ TokenNames = MonopolySimInit.ReadTokens(os.path.join(scriptpath, 'MonopolyData -
 Spaces = MonopolySimInit.ReadSpaces(os.path.join(scriptpath,'MonopolyData - Spaces.txt'))
 #Initlisizes Players
 Players = MonopolySimInit.genPlayers(NumberOfPlayers, TokenNames, initalMoney)
+
+## Logger ##
+def addToLog(_txt):
+    #print(_txt)
+    log = open(os.path.join(scriptpath,"MonopolyLog.txt"), "a")
+    log.write(str(_txt))
+    log.write('\n')
+    log.close()
 
 ## SECTION ONE CHECKING VALUES ##
 # The functions here are used to check if later moves are valid/possible
@@ -107,13 +116,16 @@ def payFor(_player, _amount, _target):
     else:
         #Complicated Code that needs to be added to acount for selling things
         _player.money -= _amount
-    if((type(_target).__name__) == "instance"):
+    if(_target != None):
         _target.money += _amount
+        addToLog("\t("+_player.id+") Paid "+str(_amount) + " to " +_target.id)
+    else:
+        addToLog("\t("+_player.id+") Paid "+str(_amount) + " to the Bank")
 
 #Buying and Selling Properties is always done with these functions
 #This is done in part so that updating the list of owned sets remains accurate
 def buyProperty(_player, _space, _cost):
-    payFor(_player, _cost, False)
+    payFor(_player, _cost, None)
     _space.owner = _player
     _player.ownedProperties.append(_space)
     if(hasFullSet(_player, _space.colourSet)):
@@ -121,14 +133,22 @@ def buyProperty(_player, _space, _cost):
         _player.ownedSets.append(_space.colourSet)
         _player.ownedSets.sort()
 
+    addToLog("\t("+_player.id+") bought " + _space.id +" for " +str(_cost)+ "("+str(_player.money) +" left)") 
+
+
 def sellProperty(_player, _space, _cost):
-    payFor(_player, _space.cost, False)
+    payFor(_player, _space.cost, None)
     _space.owner = None
     _player.ownedProperties.remove(_space)
     _player.ownedSets.remove(_space.colourSet)
     _player.ownedSets.sort()
 
+    addToLog("\t("+_player.id+") sold " + _space.id +" for " +str(_cost)+ "("+str(_player.money) +" now)") 
+
 def goToJail(_player):
+
+    addToLog("\t("+_player.id+") Went to Jail") 
+
     _player.inJail = True
     _player.turnsInJail = 0
     _player.position = 10
@@ -138,6 +158,9 @@ def movePlayer(_player, _target):
     if(_target <= _player.position):
         #If the Target is before current position, you must have passed go
         _player.money += 200
+    
+    addToLog("\t("+_player.id+") is on " + Spaces[_target].id) 
+
 
     _player.position = _target
 
@@ -153,7 +176,7 @@ def roll2d6():
 #Handels Landing on Special Spaces
 def OnSpecial(_player, _space):
     if(_space.id == "Income Tax"):
-        payFor(_player, 200, False)
+        payFor(_player, 200, None)
     elif(_space.id == "Chance"):
         chanceCard(_player)
     elif(_space.id == "Community"):
@@ -161,7 +184,7 @@ def OnSpecial(_player, _space):
     elif(_space.id == "Go To Jail"):
         goToJail(_player)
     elif(_space.id == "Super Tax"):
-        payFor(_player, 100, False)
+        payFor(_player, 100, None)
     #All spaces that 'do' nothing
     elif(_space.id == "Free Parking" or "Go" or "Jail"):
         1 == 1
@@ -179,32 +202,44 @@ def chanceCard(_player):
     
 #When a player chooses not to buy the property they landed on
 def auctionProperty(_player, _space):
+    addToLog("\t"+_space.id +" is up for auction!") 
     auctionOrder = []
     auctionIndex = Players.index(_player)
-    previousBid = -1
-    currentBid = 0
 
+    OrderString = "\t\tAuction Order is: "
     #Makes the auction ordered list of players
-    i = 0
-    while i < (len(Players)):
+    for i in range(len(Players)):
         auctionOrder.append(Players[(auctionIndex + i) % len(Players)])
-        i += 1
+        # Test String
+        OrderString = OrderString + Players[(auctionIndex + i) % len(Players)].id + ", "
+    
+    addToLog(OrderString) 
+        
+    currentBid = 0
+    bid = 0
+    highestBidder = auctionOrder[len(Players)-1]
 
-    # NEEDS TO BE ADDED#
+    Bidding = True
 
-    currentBidder = auctionOrder[0]
-    while(currentBid != previousBid):
-        previousBid = currentBid
-        for bidder in auctionOrder:
-                currentBidder = bidder
+    while(Bidding):
+        for player in auctionOrder:
+            bid = player.BidOnProperty(_space,currentBid)
+            if(highestBidder == player):
+                Bidding = False
+                break
+            if(bid > (currentBid + 1)): 
+                addToLog("\t\t"+player.id +" bids " + str(bid))
+                highestBidder = player
+                currentBid = bid
 
-    #print(bidder.id + ' bought ' + _space.id + ' for ' + str(currentBid))
+    addToLog("\t\t"+highestBidder.id +" won the auction at " + str(currentBid)) 
+
 
 #Handels Landing on Property
 def OnProperty(_player, _space, _diceRoll):
     if _space.owner == None:
-        # NEEDS TO BE CHANGED #
-        if(_player.money >= _space.cost):
+        # Checks with player "agent" if they want to buy the property
+        if(_player.BuyProperties(_space, _space.cost)):
             buyProperty(_player, _space, _space.cost)
         else:
             auctionProperty(_player, _space)
@@ -252,15 +287,29 @@ def normalTurn(_player, _movement, _diceRoll):
 
     #Checks if they have sets so they can start building houses
     if(len(_player.ownedSets) != 0):
-        #buyHouses(_player)
-        1 == 1
+        for fullSet in _player.ownedSets:
+            Buying = True
+            while Buying:
+                Buying = False
+                for position in MonopolySimInit.PropertiesInSet[fullSet]:
+                    nextProperty = Spaces[position]
+                    if(nextProperty.numberOfHouses < maxHouseLevel(fullSet)):
+                        if(_player.BuyHouses(nextProperty) == True):
+                            addToLog("\t("+_player.id+") Bought a house on " + nextProperty.id +" (part of set "+str(fullSet) +")")
+                            Buying = True
+                            payFor(_player, nextProperty.costOfHouse, None)
+                            nextProperty.numberOfHouses = nextProperty.numberOfHouses + 1
+                            
 
 #Main Action
 def TakeTurn(_player):
-    
+    addToLog(_player.id + ": ")
+
     #Rolls dice, for moving or leaving jail
     DiceRoll = roll2d6()
     lastDiceRoll = 0
+
+    addToLog("\t("+_player.id+") First  roll: " + str(DiceRoll[0])+" + "+ str(DiceRoll[1]))
 
     if(_player.inJail and _player.turnsInJail != 3):
         if DiceRoll[0] != DiceRoll[1]:
@@ -271,33 +320,36 @@ def TakeTurn(_player):
     elif(_player.turnsInJail == 3):
         if DiceRoll[0] != DiceRoll[1]:
             #print(_player.id + " is out of Jail")
-            payFor(_player, 50, False)
+            payFor(_player, 50, None)
     
     lastDiceRoll = DiceRoll[2]
     normalTurn(_player, DiceRoll[2],lastDiceRoll)
     if DiceRoll[0] == DiceRoll[1] and _player.inJail == False:
         DiceRoll = roll2d6()
         lastDiceRoll = DiceRoll[2]
+        addToLog("\t("+_player.id+") Second  roll: " + str(DiceRoll[0])+" + "+ str(DiceRoll[1]))
         normalTurn(_player, DiceRoll[2],lastDiceRoll)
+
         if DiceRoll[0] == DiceRoll[1]:
             DiceRoll = roll2d6()
             lastDiceRoll = DiceRoll[2]
+            addToLog("\t("+_player.id+") Third  roll: " + str(DiceRoll[0])+" + "+ str(DiceRoll[1]))
             normalTurn(_player, DiceRoll[2],lastDiceRoll)
+
             if DiceRoll[0] == DiceRoll[1]:
+                addToLog("\t("+_player.id+") Rolled three doubles!")
                 goToJail(_player)
                 return
 
 ## SECTION FOUR CORE GAME LOOP ##
 # The main game loop, and some debug functions
-
-def addToLog(_txt):
-    log = open(os.path.join(scriptpath,"MonopolyLog.txt"), "a")
-    log.write('\n')
-    log.write(str(_txt))
-    log.close()
     
  #Main Loop   
 def game():
+    #Clear Log
+    if os.path.exists(os.path.join(scriptpath,"MonopolyLog.txt")):
+        os.remove(os.path.join(scriptpath,"MonopolyLog.txt"))
+
     ##For Keeping Logs
     TurnNumber = 1
     
@@ -312,32 +364,26 @@ def game():
             while playerToCheck < len(Players):
                 if Players[playerToCheck].money <= 0:
 
-                    print(Players[playerToCheck].id + " is Bankrupt!")
+                    addToLog(str(Players[playerToCheck].id + " is Bankrupt!"))
                     
                     Players.remove(Players[playerToCheck])
                 playerToCheck += 1
 
             # Monopoly ends when the second player is bankrupt
             if len(Players) == 1:
-
-                #For Dedug
-                print(str(Players[0].id) + " won in " +str(TurnNumber)+ " turns")
-
                 addToLog(str(Players[0].id) + " won in " +str(TurnNumber)+ " turns")
+
                 GameOver = True
 
         if TurnNumber == 500:
             #For Dedug
-            print('Game was a tie, remaining players were:')
-
             addToLog('Game was a tie, remaining players were:')
+
             Players.sort(key=operator.attrgetter('money'))
             Players.reverse()
             for player in Players:
                 addToLog((player.id + ': ' + str(player.money)))
-                #For Dedug
-                print(player.id + ': ' + str(player.money))
-                
+
                 GameOver = True
 
         TurnNumber += 1
